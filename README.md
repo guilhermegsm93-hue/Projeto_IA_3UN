@@ -104,18 +104,12 @@ Cada experimento gera um registro JSON em `runs/experiment_logs.json` com:
 - Amostra de erros de classificação
 - Caminho do modelo treinado
 
-## Entregáveis complementares
-
-- **Relatório**: `Relatorio_U3.docx` (a elaborar com base nos logs)
-- **Apresentação**: `Apresentacao.pptx` (a elaborar)
-- **Notebook**: pode-se importar os módulos em `main.ipynb` para análise interativa
-
 ## Limitações conhecidas
 
 - Sentence Transformers exige download do modelo na primeira execução (~90 MB).
 - Explicações LLM dependem de chave de API e conexão com internet.
 - A base de reviews sintética é pequena; substitua por dados reais para resultados mais robustos.
 
-## Autores
+## Disciplina
 
 Projeto desenvolvido para ELE 606 — Tópicos em Inteligência Artificial, UFRN, 2026.1.
