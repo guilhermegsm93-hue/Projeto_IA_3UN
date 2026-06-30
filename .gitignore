@@ -1,0 +1,37 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Segredos — NUNCA subir chaves de API
+.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modelos e logs gerados (podem ser grandes; regenere com main.py)
+runs/models/
+runs/artifacts/
+
+# Dados grandes (opcional: remova a linha abaixo se quiser versionar data/)
+# data/*.csv
+# data/*.xlsx
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# HuggingFace cache local
+.cache/
