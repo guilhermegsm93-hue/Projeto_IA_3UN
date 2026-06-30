@@ -108,7 +108,6 @@ Cada experimento gera um registro JSON em `runs/experiment_logs.json` com:
 
 - Sentence Transformers exige download do modelo na primeira execução (~90 MB).
 - Explicações LLM dependem de chave de API e conexão com internet.
-- A base de reviews sintética é pequena; substitua por dados reais para resultados mais robustos.
 
 ## Disciplina
 
