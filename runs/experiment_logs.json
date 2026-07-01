@@ -1,7 +1,7 @@
 [
   {
-    "experiment_id": "452cdb0c",
-    "timestamp": "2026-06-30T17:30:20.584270+00:00",
+    "experiment_id": "8d3b57c0",
+    "timestamp": "2026-07-01T02:40:36.111636+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "20newsgroups",
@@ -33,44 +33,44 @@
       "alpha": 1.0
     },
     "metrics": {
-      "accuracy": 0.7416666666666667,
-      "f1_weighted": 0.7358884139765902,
+      "accuracy": 0.7916666666666666,
+      "f1_weighted": 0.7864985821174085,
       "classification_report": {
         "rec.sport.baseball": {
-          "precision": 0.7391304347826086,
-          "recall": 0.5666666666666667,
-          "f1-score": 0.6415094339622641,
+          "precision": 0.9,
+          "recall": 0.6,
+          "f1-score": 0.72,
           "support": 30.0
         },
         "rec.sport.hockey": {
-          "precision": 0.675,
-          "recall": 0.84375,
-          "f1-score": 0.75,
+          "precision": 0.6818181818181818,
+          "recall": 0.9375,
+          "f1-score": 0.7894736842105263,
           "support": 32.0
         },
         "sci.med": {
-          "precision": 0.85,
-          "recall": 0.6296296296296297,
-          "f1-score": 0.723404255319149,
+          "precision": 0.9,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.7659574468085106,
           "support": 27.0
         },
         "sci.space": {
-          "precision": 0.7567567567567568,
-          "recall": 0.9032258064516129,
-          "f1-score": 0.8235294117647058,
+          "precision": 0.8055555555555556,
+          "recall": 0.9354838709677419,
+          "f1-score": 0.8656716417910447,
           "support": 31.0
         },
-        "accuracy": 0.7416666666666667,
+        "accuracy": 0.7916666666666666,
         "macro avg": {
-          "precision": 0.7552217978848415,
-          "recall": 0.7358180256869773,
-          "f1-score": 0.7346107752615296,
+          "precision": 0.8218434343434344,
+          "recall": 0.7849126344086022,
+          "f1-score": 0.7852756932025203,
           "support": 120.0
         },
         "weighted avg": {
-          "precision": 0.7515281041911476,
-          "recall": 0.7416666666666667,
-          "f1-score": 0.7358884139765902,
+          "precision": 0.8174200336700336,
+          "recall": 0.7916666666666666,
+          "f1-score": 0.7864985821174085,
           "support": 120.0
         }
       }
@@ -82,11 +82,6 @@
         "predicted_label": "rec.sport.hockey"
       },
       {
-        "text": "A relative of mine has recently been diagnosed with \"stage 3 papillary cell\novarian cancer\".  We are urgently seeking the best place in the country for\ntreatment for this.\n\nDoes anyone have any suggestions?\n\nAs you might suspect, time is of the essence.",
-        "true_label": "sci.med",
-        "predicted_label": "sci.space"
-      },
-      {
         "text": "I seem to recall that there was an article in Radio Electronics about this\nsubject. In fact I have a copy of the article in front of me, but I can't\nfind anywhere in the article a refrence as to what month it was in. The system\nthey describe uses an automobile ignition coil for the high voltage. The \narticle even includes some information on what kind of film to use and where \nto get it. \n\nHope this helps.",
         "true_label": "sci.med",
         "predicted_label": "sci.space"
@@ -94,7 +89,12 @@
       {
         "text": "[reply to dabbott@augean.eleceng.adelaide.edu.AU (Derek Abbott)]\n \n \nI know of a patient who was severely and chronically depressed and tried\nto kill himself with a bullet to the temple.  He essentially gave\nhimself a prefrontal lobotomy, curing the depression.",
         "true_label": "sci.med",
-        "predicted_label": "rec.sport.baseball"
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "\nI think he just wanted to get Henneman some work, because the \nTigers had days off both the day before and the day after.",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.space"
       },
       {
         "text": "Would someone please give me the address for Texas Ranger\nticket orders. Thanks very much.",
@@ -107,29 +107,24 @@
         "predicted_label": "rec.sport.hockey"
       },
       {
-        "text": "Hello. I am looking for a program (or algorithm) that can be used\nto compute sunrise and sunset times.\n\nI would appreciate any advice.",
+        "text": "Henry,\n\ndidn't the Little Joe  and Big Joe  get built in under a year?\n6 months for little Joe,  and 12 Months for Big Joe?\n\ni thought i saw something on that for  a old mercury film.",
         "true_label": "sci.space",
-        "predicted_label": "sci.med"
+        "predicted_label": "rec.sport.hockey"
       },
       {
         "text": "\nSteve, take a look at what you are saying.  I don't see one construvtive\nword here.  If you don't have anything constructive to add, why waste\nthe bandwidth - yeah, sure, flame me for doing it myself.  Is this\nsci.med or alt.flame?  Like it or not, medical science does *not* know\ncategorically everything about everything.  I'm not flaming your\nknowledge, just asking you to sit back and ask yourself \"what if?\"\n\n\"Minds are like parachutes - they only function when they are open.\"\n\nOh - and if you *do* want to flame me or anyone else, how about using\nemail?\n\nRob\nWho doesn't claim any relevant qualifications, just interest\n--",
         "true_label": "sci.med",
-        "predicted_label": "sci.space"
+        "predicted_label": "rec.sport.baseball"
+      },
+      {
+        "text": "\nYou obviously did not watch the Twins in Chicago.\n\nNo cold spell?  It's been snowing most of the week in Minnesota.\n(5 inches in Duluth last weekend)\n\n\nYup.\n",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "rec.sport.hockey"
       },
       {
         "text": "MELITTIN",
         "true_label": "sci.med",
         "predicted_label": "rec.sport.hockey"
-      },
-      {
-        "text": "\nStuff deleted\n\n\nI have to confess that this is one of my few unfulfilled ambitions.\nNo matter how much I eat, it still seems realistic.",
-        "true_label": "sci.med",
-        "predicted_label": "sci.space"
-      },
-      {
-        "text": "\nDo you realize how many smiles are crossing faces after you wrote that?\n(-;\n\ngld",
-        "true_label": "rec.sport.hockey",
-        "predicted_label": "rec.sport.baseball"
       },
       {
         "text": "\n\n\n\n\nThese people were very silly.  Any team that gets to the World Series\ncan win the World Series, and anybody who ever expects a sweep is\ncrazy.  If you put the best team in baseball in the Series against\nthe worst team in baseball, the worst team would win at least a game\nmost of the time and very well could win the Series, though the odds\nwould certainly be against them.",
@@ -142,29 +137,19 @@
         "predicted_label": "rec.sport.baseball"
       },
       {
-        "text": "\t.\n\t.\n\t.\n\nSince I was born in the late Pleistocene, I too remember 1964.  That year,\nthe Dodgers were several games out of first and I think finished sixth in the\nleague.  This was kind of odd because they won the World Series both the\nprevious year and the following year.\n  \n\n-- \nWarren Usui",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "rec.sport.hockey"
-      },
-      {
         "text": "\n\nThe NASM photo archives are open to the public.  All (or almost all)\nstill pictures in the collection are available for viewing, but I\ndon't know about films.  At least it might be worth a try.  I'm not\nsure if appointments are necessary, but I think not.\n\nGood luck, and let us know what you find.",
         "true_label": "sci.space",
         "predicted_label": "sci.med"
       },
       {
-        "text": " \nAre you arguing that the Lyme lab test is accurate?\nThe books that I've read say that in general the tests\nhave a 50-50 chance of being correct.  (The tests\nresult in a large number of both false positives and\nfalse negatives.  I am in the latter case.)\n\nWe could get those same odds by \"rolling the dice\".\n",
+        "text": "If you can get it, you might want to try a Canadian over-the-counter product\ncalled Secaris, which is a water-soluble gel.  Compared to Vaseline or other\ngreasy ointments, Secaris seems more compatible with the moisture that's\nalready there.\n",
         "true_label": "sci.med",
-        "predicted_label": "sci.space"
+        "predicted_label": "rec.sport.hockey"
       },
       {
         "text": "I made a mistake on the posted article [been fighting food\npoisoning for last 24 hours...]\n\nThe second paragraph should state the following...\n\n\"Doctors cleared Sandberg to swing a padded bat at a ball\non a tee and to catch a ball in his gloved hand.\"\n\nSorry for the error, didn't know it until after posting.",
         "true_label": "rec.sport.baseball",
-        "predicted_label": "sci.space"
-      },
-      {
-        "text": "\nTheir phone number is 1-800-377-9777. The last catalog shows three \nOaks jerseys: 36 Home, 42 Home, 39 Home - they're each $165.00.  All their\nmerchandise is handmade and is an authentic replica.  I own a couple -\nand they are excellent. They also have wool caps and jackets.  You should\ncall to get on their mailing list even if you can't afford their prices.",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "rec.sport.hockey"
+        "predicted_label": "sci.med"
       },
       {
         "text": " ",
@@ -175,16 +160,31 @@
         "text": "",
         "true_label": "rec.sport.baseball",
         "predicted_label": "rec.sport.hockey"
+      },
+      {
+        "text": "How long has Don Cherry been a student at SFU? (or is that Arche Bunker?)\n\nPlease, keep this racist drivel off of the net.  You're an embarassment\nto Canadians everywhere.",
+        "true_label": "rec.sport.hockey",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "rec.sport.hockey"
+      },
+      {
+        "text": "\nMy wife breast-fed my three boys 12 months, 16 months, and 29 months\nrespectively and they are 18, 16, and 10 years old respectively.  So\nfar everybody seems fairly normal.  I noticed a negative correlation\nwith ear infections and length of time nursed in my very small sample.\nI do notice that the 16 and 18 year old seem to eat a lot, could that\nbe from the breast feeding :-)  ?\n\nI don't understand the \"unfit mother\" charge other than any tactic is\nnot too low down for some folks during divorce/child custody battles.\n\nMost of the developing nations practice breast feeding to 3 and 4 years\nold.  Are they screwed up because of it ?  Would they be much better\noff if they could use cow's milk or commercial formula ?  Doctors ?",
+        "true_label": "sci.med",
+        "predicted_label": "rec.sport.hockey"
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\452cdb0c.pkl",
-      "confusion_matrix_key": "452cdb0c_cm"
+      "model_path": "runs\\models\\8d3b57c0.pkl",
+      "confusion_matrix_key": "8d3b57c0_cm"
     }
   },
   {
-    "experiment_id": "eabc8b89",
-    "timestamp": "2026-06-30T17:30:21.918042+00:00",
+    "experiment_id": "afd78063",
+    "timestamp": "2026-07-01T02:40:37.305115+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "20newsgroups",
@@ -217,44 +217,44 @@
       "solver": "lbfgs"
     },
     "metrics": {
-      "accuracy": 0.725,
-      "f1_weighted": 0.7250688614746194,
+      "accuracy": 0.825,
+      "f1_weighted": 0.8288109423533153,
       "classification_report": {
         "rec.sport.baseball": {
-          "precision": 0.6785714285714286,
-          "recall": 0.6333333333333333,
-          "f1-score": 0.6551724137931034,
+          "precision": 0.875,
+          "recall": 0.7,
+          "f1-score": 0.7777777777777778,
           "support": 30.0
         },
         "rec.sport.hockey": {
-          "precision": 0.8620689655172413,
-          "recall": 0.78125,
-          "f1-score": 0.819672131147541,
+          "precision": 1.0,
+          "recall": 0.84375,
+          "f1-score": 0.9152542372881356,
           "support": 32.0
         },
         "sci.med": {
-          "precision": 0.7727272727272727,
-          "recall": 0.6296296296296297,
-          "f1-score": 0.6938775510204082,
+          "precision": 0.9130434782608695,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.84,
           "support": 27.0
         },
         "sci.space": {
-          "precision": 0.6341463414634146,
-          "recall": 0.8387096774193549,
-          "f1-score": 0.7222222222222222,
+          "precision": 0.6521739130434783,
+          "recall": 0.967741935483871,
+          "f1-score": 0.7792207792207793,
           "support": 31.0
         },
-        "accuracy": 0.725,
+        "accuracy": 0.825,
         "macro avg": {
-          "precision": 0.7368785020698393,
-          "recall": 0.7207306600955795,
-          "f1-score": 0.7227360795458188,
+          "precision": 0.8600543478260869,
+          "recall": 0.8223174283154122,
+          "f1-score": 0.8280631985716731,
           "support": 120.0
         },
         "weighted avg": {
-          "precision": 0.7372126891891398,
-          "recall": 0.725,
-          "f1-score": 0.7250688614746194,
+          "precision": 0.8593297101449274,
+          "recall": 0.825,
+          "f1-score": 0.8288109423533153,
           "support": 120.0
         }
       }
@@ -266,19 +266,14 @@
         "predicted_label": "sci.space"
       },
       {
-        "text": "I seem to recall that there was an article in Radio Electronics about this\nsubject. In fact I have a copy of the article in front of me, but I can't\nfind anywhere in the article a refrence as to what month it was in. The system\nthey describe uses an automobile ignition coil for the high voltage. The \narticle even includes some information on what kind of film to use and where \nto get it. \n\nHope this helps.",
+        "text": "[reply to dabbott@augean.eleceng.adelaide.edu.AU (Derek Abbott)]\n \n \nI know of a patient who was severely and chronically depressed and tried\nto kill himself with a bullet to the temple.  He essentially gave\nhimself a prefrontal lobotomy, curing the depression.",
         "true_label": "sci.med",
         "predicted_label": "sci.space"
       },
       {
-        "text": "\n\n   >Very cost effective if you use the right accounting method :-)\n\n   Sherzer Methodology!!!!!!\n\nHell, yes. I'm not going to let a bunch of seven suits tell\nme what the right way to estimate cost effectiveness is, at\nleast not until they can make their mind up long enough\nto leave their scheme stable for a fiscal year or two.\n\n\nSeriously though. If you were to ask the British government\nwhether their colonisation efforts in the Americas were cost\neffective, what answer do you think you'd get? What if you asked\nin 1765, 1815, 1865, 1915 and 1945 respectively? ;-)",
-        "true_label": "sci.space",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "[reply to dabbott@augean.eleceng.adelaide.edu.AU (Derek Abbott)]\n \n \nI know of a patient who was severely and chronically depressed and tried\nto kill himself with a bullet to the temple.  He essentially gave\nhimself a prefrontal lobotomy, curing the depression.",
-        "true_label": "sci.med",
-        "predicted_label": "rec.sport.baseball"
+        "text": "\nI think he just wanted to get Henneman some work, because the \nTigers had days off both the day before and the day after.",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.space"
       },
       {
         "text": "Would someone please give me the address for Texas Ranger\nticket orders. Thanks very much.",
@@ -291,17 +286,7 @@
         "predicted_label": "sci.space"
       },
       {
-        "text": "Hello. I am looking for a program (or algorithm) that can be used\nto compute sunrise and sunset times.\n\nI would appreciate any advice.",
-        "true_label": "sci.space",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "\n\n\n\nThat would not explain why widely separated detectors, such as on Ulysses\nand PVO and Ginga et al., would see a burst at the same time(*).  In fact, be-\nfore BATSE, having this widely separated \"Interplanetary Network\" was the\nonly sure way to locate a random burst.  With only one detector, one cannot\nlocate a burst (except to say \"It's somewhere in the field of view.\").  With\ntwo detectors, one can use the time that the burst is seen in each detector\nto narrow the location to a thin annulus on the sky.  With three detectors,\none gets intersecting annuli, giving two possible locations.  If one of these\nlocations is impossible (because, say, the Earth blocked that part of the \nsky), voila, you have an error box.\n\nBATSE, by having 8 detectors of its own, can do its own location determination,\nbut only to within about 3 degrees (would someone at GSFC, like David, like\nto comment on the current state of location determination?).  Having inde-\npendent sightings by other detectors helps drive down the uncertainty.\n\nYou did touch on something that you didn't mean to, though.  Some believe\n(in a reference that I have somewhere) that absorption-like features seen\nin a fraction of GRBs can actually be caused by the detector.  It would be\na mean, nasty God, though, that would have a NaI crystal act like a 10^12 Gauss\nneutron star...but this is getting too far afield.",
-        "true_label": "sci.space",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "I need advice with a situation which occurred between me and a physican\nwhich upset me.  I saw this doctor for a problem with recurring pain.\nHe suggested medication and a course of treatment, and told me that I\nneed to call him 7 days after I begin the medication so that he may\nmonitor its effectiveness, as well as my general health.\n\nI did exactly as he asked, and made the call (reaching his secretary).\nI explained to her that I was following up at the doctor's request,\nand that I was worried because the pain episodes were becoming more\nfrequent and the medication did not seem effective.\n\nThe doctor called me back, and his first words were, \"Whatever you want,\nyou'd better make it quick.  I'm very busy and don't have time to chit-\nchat with you!\"  I told him I was simply following his instructions to\ncall on the 7th day to status him, and that I was feeling worse.  I \nthen asked if perhaps there was a better time for us to talk when he\nhad more time.  He responded, \"Just spit it out now because no time is\na good time.\"  (Said in a raised voice.)  I started to feel upset and\ntried to explain quickly what was going on with my condition but my\nnervousness interfered with my choice of words and I kind of stuttered\nand then said \"well, never mind\" and he said he'll talk to various\ncolleagues about other medications and he'll call me some other time.\n\nThis doctor called me that evening and said because I didn't express\nmyself well, he was confused about what I wanted.  At this point I\nwas pretty upset and I told him (in an amazingly polite voice considering\nhow angry I felt) that his earlier manner had hurt my feelings.  He told\nme that he just doesn't have time to \"rap with patients\" and thought\nthat was what I wanted.  I told him that to assume I was calling to\n\"rap\" was insulting, and said again that I was just following through\non his orders.  He responded that he resented the implication that he \nfelt I was making that he was not interested in learning about what his\npatients have to say about their condition status.  He then gave me\nthis apology: \"I am sorry that there was a miscommunication and you\nmistakenly thought I was insulting.  I am not trying to insult you\nbut I am not that knowledgeable about pain, and I don't have a lot of\ntime to deal with that.\"  He then told me to call him the next day\nfor further instructions on how do deal with my pain and medication.\n\nI am still upset and have not yet called.\n\nMy questions: (1) Should I continue to have this doctor manage my care?\n(2) Since I am in pain off and on, I realize that this may cause me to\nbe more anxietous so am I perhaps over-reacting or overly sensitive?\nIf this doctor refers me to his colleague who knows more about the type\nof pain I have, he still wants me to status him on my condition but\nnow I am afraid to call him.",
+        "text": "\nSteve, take a look at what you are saying.  I don't see one construvtive\nword here.  If you don't have anything constructive to add, why waste\nthe bandwidth - yeah, sure, flame me for doing it myself.  Is this\nsci.med or alt.flame?  Like it or not, medical science does *not* know\ncategorically everything about everything.  I'm not flaming your\nknowledge, just asking you to sit back and ask yourself \"what if?\"\n\n\"Minds are like parachutes - they only function when they are open.\"\n\nOh - and if you *do* want to flame me or anyone else, how about using\nemail?\n\nRob\nWho doesn't claim any relevant qualifications, just interest\n--",
         "true_label": "sci.med",
         "predicted_label": "rec.sport.baseball"
       },
@@ -311,27 +296,12 @@
         "predicted_label": "sci.space"
       },
       {
-        "text": "\nDo you realize how many smiles are crossing faces after you wrote that?\n(-;\n\ngld",
+        "text": "\n\tThe South Florida Colons.\n\n\t:)\n",
         "true_label": "rec.sport.hockey",
-        "predicted_label": "rec.sport.baseball"
-      },
-      {
-        "text": "\n\n\n\n\nThese people were very silly.  Any team that gets to the World Series\ncan win the World Series, and anybody who ever expects a sweep is\ncrazy.  If you put the best team in baseball in the Series against\nthe worst team in baseball, the worst team would win at least a game\nmost of the time and very well could win the Series, though the odds\nwould certainly be against them.",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "rec.sport.hockey"
+        "predicted_label": "sci.space"
       },
       {
         "text": "David\n\n\n",
-        "true_label": "rec.sport.hockey",
-        "predicted_label": "rec.sport.baseball"
-      },
-      {
-        "text": "\t.\n\t.\n\t.\n\nSince I was born in the late Pleistocene, I too remember 1964.  That year,\nthe Dodgers were several games out of first and I think finished sixth in the\nleague.  This was kind of odd because they won the World Series both the\nprevious year and the following year.\n  \n\n-- \nWarren Usui",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "rec.sport.hockey"
-      },
-      {
-        "text": "\nWell, since the Oilers didn't win a heck of a lot of games, I'm not sure\nthey deserve and MVP (\"can't win without him\").  However, I'd suggest Kelly\nBuchberger instead of Dave Manson, who has had a brutal year, his pick for\nthe All-Star game notwithstanding.\n\nAs for biggest surprise, I'd say that Buchberger had higher expectations\nthis year due to his \"breakthrough\" year (for him) last year, so he didn't\nreally raise his game.  My suggestion would be Shjon Podein, one of the\ncallups from Cape Breton during the year.  He was quite far down on the\ndepth chart in the Oilers stable of prospects, but made a big impact on\nthe team.  He has 12 goals in his 33 games and is only -1.  Those are decent\nnumbers for a third-line player who was seemingly doomed to minor-league\noblivion.  The Oilers coaching staff likens his style to John Tonelli.\nI think he'll be on the full-time roster next year.\n\nAs for biggest disappointment, you could name any of the players the Oilers\ndumped for lousy production this year (Nicholls, Gilchrist, Tikkanen) or\neven Shayne Corson, but Mellanby isn't far off.\n\n-- \nAndrew Scott                    | andrew@idacom.hp.com\nHP IDACOM Telecom Division      | (403) 462-0666 ext. 253",
         "true_label": "rec.sport.hockey",
         "predicted_label": "rec.sport.baseball"
       },
@@ -341,34 +311,64 @@
         "predicted_label": "sci.med"
       },
       {
-        "text": " \nAre you arguing that the Lyme lab test is accurate?\nThe books that I've read say that in general the tests\nhave a 50-50 chance of being correct.  (The tests\nresult in a large number of both false positives and\nfalse negatives.  I am in the latter case.)\n\nWe could get those same odds by \"rolling the dice\".\n",
-        "true_label": "sci.med",
-        "predicted_label": "sci.space"
-      },
-      {
-        "text": "\nOK, just for grins:\n- Kekule hypothesized a resonant structure for the aromatic benzene\nring after waking from a dream in which a snake was swallowing his tail.\n- Archimedes formalized the principle of buoyancy while meditating in\nhis bath.\n\nIn neither case was there \"no connection to prior theories, concepts, etc.\"\nas you stipulated above. What there was was an intuitive leap beyond\nthe current way of thinking, to develop ideas which subsequently proved\nto have predictive power (e.g., they stood the test of experimental\nverification).\n\npardon my kibbutzing...",
-        "true_label": "sci.med",
-        "predicted_label": "sci.space"
+        "text": "\n\nI watched him over his entire career.  I have NEVER seen a player, and that\nincludes Russell Courtnall and Davie Keon, screw up as many breakaways as\nBob Gainey.  And I will never forget the time Denis Potvin caught Gainey\nwith his head down.  You have been sold a bill of goods on Bob Gainey.\n\nGainey was a plugger.  And when the press runs out of things to say about \nthe stars on dynasties they start to hype the pluggers.  Grant Fuhr, Essa\nTikkannen, Butch Goring, Bob Nystrom, Bob Gainey, Doug Jarvis, Derek\nSanderson, Wayne Cashman, Bob Baun, Bob Pulford, Ralph Backstrom, Henri\nRichard, Dick Duff...and so on...\n\ncordially, as always,\n\nrm\n",
+        "true_label": "rec.sport.hockey",
+        "predicted_label": "rec.sport.baseball"
       },
       {
         "text": "I made a mistake on the posted article [been fighting food\npoisoning for last 24 hours...]\n\nThe second paragraph should state the following...\n\n\"Doctors cleared Sandberg to swing a padded bat at a ball\non a tee and to catch a ball in his gloved hand.\"\n\nSorry for the error, didn't know it until after posting.",
         "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.med"
+      },
+      {
+        "text": " ",
+        "true_label": "sci.med",
         "predicted_label": "sci.space"
       },
       {
-        "text": "\nTheir phone number is 1-800-377-9777. The last catalog shows three \nOaks jerseys: 36 Home, 42 Home, 39 Home - they're each $165.00.  All their\nmerchandise is handmade and is an authentic replica.  I own a couple -\nand they are excellent. They also have wool caps and jackets.  You should\ncall to get on their mailing list even if you can't afford their prices.",
+        "text": "",
         "true_label": "rec.sport.baseball",
-        "predicted_label": "rec.sport.hockey"
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "How long has Don Cherry been a student at SFU? (or is that Arche Bunker?)\n\nPlease, keep this racist drivel off of the net.  You're an embarassment\nto Canadians everywhere.",
+        "true_label": "rec.sport.hockey",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "Here is a press release from the Natural Resources Defense Council.\n\n New Data Show About 100 Major U.S. Water Supplies Vulnerable To\nMilwaukee-Type Disease Outbreak\n To: National Desk, Environment Writer\n Contact: Erik Olson or Sarah Silver, 202-783-7800, both\n          of the Natural Resources Defense Council\n\n   WASHINGTON, April 14  -- Internal EPA data released\ntoday by the Natural Resources Defense Council reveals that about\n100 large water systems -- serving cities from Boston to San\nFrancisco -- do not filter to remove disease-carrying organisms\nleaving those communities potentially vulnerable to a disease\noutbreak similar to the one affecting Milwaukee.\n   The EPA list is attached.\n   \"These internal EPA documents reveal that the safety of water\nsupplies in many American cities is threatened by inadequate\npollution controls or filtration,\" said Erik Olson, a senior\nattorney with NRDC.  \"Water contamination isn't just a problem in\nBangladesh, it's also a problem in Bozeman and Boston.\"\n   \"As of June 29, 1993, about 100 large surface water systems on\nEPA's list probably will be breaking the law.  The 1986 Safe\nDrinking Water Act requires all surface water systems to either\nfilter their water or fully protect the rivers or lakes they use\nfrom pollution,\" Olson continued.  Some systems are moving\ntowards eventually implementing filtration systems but are\nexpected to miss the law's deadline.\n   Olson pointed out that the threat of contamination is already\na reality in other cities.  A 1991 survey of 66 U.S. surface\nwater systems by water utility scientists found that 87 percent\nof raw water samples contained the Milwaukee organism\ncryptosporidium, and 81 percent contained a similar parasite\ncalled giardia.\n   Adding to the level of concern, a General Accounting Office\nstudy released today by House Health and Environment Subcommittee\nChairman Henry Waxman indicates serious deficiencies in the\nnation's system for conducting and following through on sanitary\nsurveys of water systems.\n   \"This new information raises a huge warning sign that millions\nof Americans can no longer simply turn on their taps and be\nassured that their water is safe to drink.  We must immediately\nput into place programs to protect water sources from\ncontamination and where this is not assured, filtration equipment\nmust be installed to protect the public,\" Olson noted.  \"The time\nhas come for many of the nation's water utilities to stop\ndragging their feet and to aggressively protect their water from\ncontamination; consumers are prepared to pay the modest costs\nneeded to assure their water is safe to drink.\"\n   NRDC is a national non-profit environmental advocacy organization.\n\n   Systems EPA Indicates Require Filtration and Do Not Adequately\nProtect Watersheds\n\n CONNECTICUT\n\n Bridgeport            Bridgeport Hydraulic Co.\n\n MASSACHUSETTS\n Boston                H2O Resource Author (MWRA)\n Medford               MWRA-Medford Water Dept\n Melrose               MWRA-Melrose Water Dept\n Hilton                MWRA-Hilton Water Dept\n Needham               MWRA-Needham Water Division\n Newtoncenter          MWRA-Newton Water Dept.\n Marblehead            MWRA-Marblehead Water Dept\n Quincy                MWRA-Quincy Water Dept\n Norwood               MWRA-Norwood Water Dept\n Framingham            MWRA-Framingham Water Div\n Cambridge             MWRA-Cambridge Water Dept\n Canton                MWRA-Canton Water Div-DPW\n Chelsea               MWRA-Chelsea Water Dept\n Everett               MWRA-Everett Water Dept\n Lexington             MWRA-201 Bedford (PUO WRKS)\n Lynn                  MWRA-Lynn Water & Sewer Co\n Malden                MWRA-Malden Water Division\n Revere                MWRA-Revere Water Dept\n Woburn                MWRA-Woburn Water Dept\n Swampscott            MWRA-Swampscott Water Dept\n Saugus                MWRA-Saugus Water Dept\n Somerville            MWRA-Somerville Water Dept\n Stoneman              MWRA-Stoneman Water Dept\n Brookline             MWRA-Brookline Water Dept\n Wakefield             MWRA-Same as Above\n Waltham               MWRA-Waltham Water Division\n Watertown             MWRA-Watertown Water Division\n Weston                MWRA-Weston Water Dept\n Dedham                MWRA-Dedham-Westwood District\n Winchester            MWRA-Winchester Water & Sewer\n Winthrop              MWRA-Winthrop Water Dept\n Boston                MWRA-Boston Water & Sewer Co\n S. Hadley             MWRA-South Hadley Fire Dist\n Arlington             MWRA-Arlington Water Dept\n Belmont               MWRA-Belmont Water Dept\n Clinton               MWRA-Clinton Water Dept\n Attleboro             Attleboro Water Dept\n Fitchburg             Fitchburg Water Dept\n Northampton           Northampton Water Dept\n North Adams           North Adams Water Dept\n Amherst               Amherst Water Division DPW\n Gardner               Gardner Water Dept\n Worcester             Worcester DPW, Water Oper\n Westboro              Westboro Water Dept\n Southbridge           Southbridge Water Supply Co\n Newburyport           Newburyport Water Dept\n Hingham               Hingham Water Co\n Brockton              Brockton Water Dept\n\n MAINE\n Rockland              Camden & Rockland Water Co\n Bath                  Bath Water District\n\n NEW HAMPSHIRE\n Keene                 City of Keene\n Salem                 Salem Water Dept\n\n VERMONT\n Barre City            Barre City Water System\n Rutland City          Rutland City Water Dept\n\n NEW YORK\n Glens Falls           Glens Falls City\n Yorktown Hts          Yorktown Water Storage & Dist\n Rochester             Rochester City\n Henrietta             Henrietta WD\n Rochester             MCWA Upland System\n Rochester             Greece Consolidated\n New York              NYC-Aquaduct Sys (Croton)\n Chappaqua             New Castle/Stanwood WD\n Beacon                Beacon City\n Mamaronek             Westchester Joint Water Works\n\n PENNSYLVANIA\n Bethlehem             Bethlehem Public Water Sys\n Johnstown             Greater Johnstown Water Auth\n Lock Haven            City of Lock Haven-Water Dept\n Shamokin              Roaring Creek Water Comp\n Harrisburg            Harrisburg City\n Hazleton              Hazleton City Water Dept\n Wind Gap              Blue Mt Consolidated\n Apollo                Westmoreland Auth\n Fayettville           Guilford Water Auth\n Humlock Creek         PG&W-Ceasetown Reservoir\n Springbrook           PG&W-Waters Reservoir\n Wilkes Barre          PG&W-Gardners Creek\n Wilkes Barre          PG&W-Hill Creek\n Wilkes Barre          PG&W-Plymouth Relief\n Altoona               Altoona City Auth\n Tamaqua               Tamaqua Municipal water\n Waynesboro            Waynesboro Borough Auth\n Pottsville            Schuykill Co Mun Auth\n\n VIRGINIA\n Covington             City of Covington\n Fishersville          South River Sa Dist-ACSA\n\n SOUTH CAROLINA\n Greenville            Greenville Water Sys\n\n MICHIGAN\n Sault Ste Marie       Sault Ste Marie\n Marquette             Marquette\n\n MONTANA\n Butte                 Butte Water Co\n Bozeman               Bozeman City\n\n CALIFORNIA\n San Francisco         City & County of San Fran\n\n NEVADA\n Reno                  Westpac\n\n IDAHO\n Twin Falls            Twin Falls City\n\n WASHINGTON\n Aberdeen              Aberdeen Water Dept\n Centralia             Centralia Water Dept\n\n -30-",
+        "true_label": "sci.med",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "sandiego and graig nettles\n\n\n",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.space"
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\eabc8b89.pkl",
-      "confusion_matrix_key": "eabc8b89_cm"
+      "model_path": "runs\\models\\afd78063.pkl",
+      "confusion_matrix_key": "afd78063_cm"
     }
   },
   {
-    "experiment_id": "a4780b84",
-    "timestamp": "2026-06-30T17:30:23.259776+00:00",
+    "experiment_id": "0212cf06",
+    "timestamp": "2026-07-01T02:40:38.199506+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "20newsgroups",
@@ -400,44 +400,44 @@
       "n_estimators": 100
     },
     "metrics": {
-      "accuracy": 0.6,
-      "f1_weighted": 0.6003173705379587,
+      "accuracy": 0.675,
+      "f1_weighted": 0.6740255770735524,
       "classification_report": {
         "rec.sport.baseball": {
-          "precision": 0.7142857142857143,
-          "recall": 0.5,
-          "f1-score": 0.5882352941176471,
+          "precision": 0.8095238095238095,
+          "recall": 0.5666666666666667,
+          "f1-score": 0.6666666666666666,
           "support": 30.0
         },
         "rec.sport.hockey": {
-          "precision": 0.8,
-          "recall": 0.5,
-          "f1-score": 0.6153846153846154,
+          "precision": 0.8181818181818182,
+          "recall": 0.5625,
+          "f1-score": 0.6666666666666666,
           "support": 32.0
         },
         "sci.med": {
-          "precision": 0.5263157894736842,
-          "recall": 0.7407407407407407,
-          "f1-score": 0.6153846153846154,
+          "precision": 0.5675675675675675,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.65625,
           "support": 27.0
         },
         "sci.space": {
-          "precision": 0.5121951219512195,
-          "recall": 0.6774193548387096,
-          "f1-score": 0.5833333333333334,
+          "precision": 0.625,
+          "recall": 0.8064516129032258,
+          "f1-score": 0.704225352112676,
           "support": 31.0
         },
-        "accuracy": 0.6,
+        "accuracy": 0.675,
         "macro avg": {
-          "precision": 0.6381991564276545,
-          "recall": 0.6045400238948626,
-          "f1-score": 0.6005844645550529,
+          "precision": 0.7050682988182988,
+          "recall": 0.6783490143369175,
+          "f1-score": 0.6734521713615023,
           "support": 120.0
         },
         "weighted avg": {
-          "precision": 0.6426428877070726,
-          "recall": 0.6,
-          "f1-score": 0.6003173705379587,
+          "precision": 0.7097238065988065,
+          "recall": 0.675,
+          "f1-score": 0.6740255770735524,
           "support": 120.0
         }
       }
@@ -449,34 +449,19 @@
         "predicted_label": "sci.space"
       },
       {
-        "text": "A relative of mine has recently been diagnosed with \"stage 3 papillary cell\novarian cancer\".  We are urgently seeking the best place in the country for\ntreatment for this.\n\nDoes anyone have any suggestions?\n\nAs you might suspect, time is of the essence.",
-        "true_label": "sci.med",
+        "text": "\n\nWhy?  Do you suppose he's immune to the ravages of time?  He's 37.  \nIn a few years he'll be 40.  He doesn't get to as many grounders as\nhe used to, and will get to fewer still as his legs go, as they do\non every human so far.\n\nRemember: Willie Mays was a defensive liability at he end of his\ncareer too.  Ditto Mickey Mantle.  Ditto just about everyone else who \nplayed into their late 30's.",
+        "true_label": "rec.sport.baseball",
         "predicted_label": "sci.space"
       },
       {
-        "text": "\n\n   >Very cost effective if you use the right accounting method :-)\n\n   Sherzer Methodology!!!!!!\n\nHell, yes. I'm not going to let a bunch of seven suits tell\nme what the right way to estimate cost effectiveness is, at\nleast not until they can make their mind up long enough\nto leave their scheme stable for a fiscal year or two.\n\n\nSeriously though. If you were to ask the British government\nwhether their colonisation efforts in the Americas were cost\neffective, what answer do you think you'd get? What if you asked\nin 1765, 1815, 1865, 1915 and 1945 respectively? ;-)",
-        "true_label": "sci.space",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "\n\n    > be the site of major commercial activity. As far as we know it has no\n    > materials we can't get cheaper right here on Earth or from asteroids\n    > and comets, aside from the semi-mythic He3 that *might* be useful in low\n    > grade fusion reactors.\n\n   problem with 3He (aside from the difficulty in making any fusion\n   reactor work) is that its concentration in lunar regolith is just so\n   small -- on the order of 5 ppb or so, on average (more in some\n\n   This thread reminds me of Wingo's claims some time ago about the moon\n   as a source of titanium for use on earth.  As I recall, Wingo wasn't\n ...\n   even 1% of the basalts are 5% TiO2, this is trillions of tons of TiO2\n   at concentrations only a factor of 2-3 less than in lunar high-Ti\n   basalts.  It is difficult to see how the disadvantages of the moon\n   could be overcome by such a small increase the concentration of the\n   ore (never mind the richer, but less common, terrestrial ores being\n   mined today).\n\nWhy Paul, it's obvious.\nOnce chlorine chemistry has been banned on Earth,\nas is being advocated by some groups, Ti prices will\nsharply increase (we are of course not allowed to\nassume any developments in Ti processing).\nLunar Ti will then be eminently competitive for\nthe trendy jewelry market and certain applications\nof National Importance \n\n:-) :-) :-) \n\n\n(oops, this is sci.space... wrong rules of debate ;-)\n\n\nSeriously, I'd say there is a flaw in Gary's analysis\nin that he assumes an export oriented economy, maybe\nthe lunatics will just want some native Ti for local\nuse... as to why Lunar natives are cost effective, \nanalysis has shown they will be critical in providing\na sheltered manufacturing base, technological innovation,\ncritical materials and manpower in the war between\nthe Allies and Central Powers in about two hundred years...\n\n;-)",
-        "true_label": "sci.space",
+        "text": "\n\n\nI was under the impression that the objective is to find conclusive\nevidence that the puck _did_ cross the line.  And, the replays I saw showed \nfairly conclusively that the puck did _not_ cross the goal line at any\ntime anyway.  Somebody screwed up.  \n",
+        "true_label": "rec.sport.hockey",
         "predicted_label": "sci.med"
       },
       {
         "text": "[reply to dabbott@augean.eleceng.adelaide.edu.AU (Derek Abbott)]\n \n \nI know of a patient who was severely and chronically depressed and tried\nto kill himself with a bullet to the temple.  He essentially gave\nhimself a prefrontal lobotomy, curing the depression.",
         "true_label": "sci.med",
-        "predicted_label": "rec.sport.baseball"
-      },
-      {
-        "text": "\nAnother word (offense) makes them my pick for last too.\n(Well, there's also my policy of never picking a Buck Rodgers' team for last)\n\n\nThe 1961 Angels were  1/2 game out of 7th. The Athletics and \nexpansion Senators finished tied for last. \nThe 1962 Colt 45's finshed 8th - ahead of the Cubs (the Mets were last).\nThe 1969 Royals finshed 4th - ahead of the White Sox (the Pilots in last).\nThe 1977 Mariners finished 6th - ahead of the Athletics(in last).\n\nApparently being an expansion team with a poor A's or Chicago \nteam around is a `good thing'\n\n\nThis may be an appropriate comparison.\nThe 1929-31 Yankees finshed 2nd, 3rd and 2nd finshing \n18, 16 and 13-1/2 games out of first. \nIn 1933,'34 and '35 they also finished second ( though they were only\n7, 7 and 3 games out).\nEven great teams can lose - That's why they play the season.\n(on the other hand... I'm still picking the Braves to go all the way)",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "rec.sport.hockey"
-      },
-      {
-        "text": "\nAgreed here...I'll never forget Dan Kelly calling the play-by-play in the '87\nCanada Cup.  He was masterful!\n\nAnd Danny Gallivan will _never_ be replaced; even now when I watch HNIC I\nremember his voice...when I see an Al MacInnis or Al Iafrate (hey, what's with\nthese guys named Al who can shoot??) shot from the point I still think\n\"blistering blast\"...THN had a tribute to Gallivan in the issue following his\ndeath; in the story they included a quote from one of the games he did.  It\nwent: \n\n\"It appears Risebrough has pugnaciously construed that check,\" he said, \"and \nwill undoubtedly make a visitation to the box of punition.\"\n\nClassic, vintage Gallivan!  He's sorely missed.  So here's to two of the best\nthere was and best that ever will be.\n",
-        "true_label": "rec.sport.hockey",
-        "predicted_label": "rec.sport.baseball"
+        "predicted_label": "sci.space"
       },
       {
         "text": "Would someone please give me the address for Texas Ranger\nticket orders. Thanks very much.",
@@ -494,6 +479,11 @@
         "predicted_label": "sci.med"
       },
       {
+        "text": "\nSteve, take a look at what you are saying.  I don't see one construvtive\nword here.  If you don't have anything constructive to add, why waste\nthe bandwidth - yeah, sure, flame me for doing it myself.  Is this\nsci.med or alt.flame?  Like it or not, medical science does *not* know\ncategorically everything about everything.  I'm not flaming your\nknowledge, just asking you to sit back and ask yourself \"what if?\"\n\n\"Minds are like parachutes - they only function when they are open.\"\n\nOh - and if you *do* want to flame me or anyone else, how about using\nemail?\n\nRob\nWho doesn't claim any relevant qualifications, just interest\n--",
+        "true_label": "sci.med",
+        "predicted_label": "sci.space"
+      },
+      {
         "text": "\n\n\n\nThat would not explain why widely separated detectors, such as on Ulysses\nand PVO and Ginga et al., would see a burst at the same time(*).  In fact, be-\nfore BATSE, having this widely separated \"Interplanetary Network\" was the\nonly sure way to locate a random burst.  With only one detector, one cannot\nlocate a burst (except to say \"It's somewhere in the field of view.\").  With\ntwo detectors, one can use the time that the burst is seen in each detector\nto narrow the location to a thin annulus on the sky.  With three detectors,\none gets intersecting annuli, giving two possible locations.  If one of these\nlocations is impossible (because, say, the Earth blocked that part of the \nsky), voila, you have an error box.\n\nBATSE, by having 8 detectors of its own, can do its own location determination,\nbut only to within about 3 degrees (would someone at GSFC, like David, like\nto comment on the current state of location determination?).  Having inde-\npendent sightings by other detectors helps drive down the uncertainty.\n\nYou did touch on something that you didn't mean to, though.  Some believe\n(in a reference that I have somewhere) that absorption-like features seen\nin a fraction of GRBs can actually be caused by the detector.  It would be\na mean, nasty God, though, that would have a NaI crystal act like a 10^12 Gauss\nneutron star...but this is getting too far afield.",
         "true_label": "sci.space",
         "predicted_label": "sci.med"
@@ -501,27 +491,22 @@
       {
         "text": "\nYou obviously did not watch the Twins in Chicago.\n\nNo cold spell?  It's been snowing most of the week in Minnesota.\n(5 inches in Duluth last weekend)\n\n\nYup.\n",
         "true_label": "rec.sport.baseball",
-        "predicted_label": "rec.sport.hockey"
+        "predicted_label": "sci.med"
       },
       {
         "text": "\nWhy not?  Brooks Robinson is a defensive liability too, and Ted\nWilliams is a weak hitter.  Even great players decline as they age.",
         "true_label": "rec.sport.baseball",
-        "predicted_label": "sci.space"
+        "predicted_label": "rec.sport.hockey"
       },
       {
         "text": "\n\tThe South Florida Colons.\n\n\t:)\n",
         "true_label": "rec.sport.hockey",
-        "predicted_label": "sci.space"
+        "predicted_label": "sci.med"
       },
       {
         "text": "\n\nOh, and us with the big degrees don't got imagination, huh?\n\nThe alleged dichotomy between imagination and knowledge is one of the most\npernicious fallacys of the New Age.  Michael, thanks for the generous\noffer, but we have quite enough dreams of our own, thank you.\n\nYou, on the other hand, are letting your own dreams go to waste by\nfailing to get the maths/thermodynamics/chemistry/(your choices here)\nwhich would give your imagination wings.\n\nJust to show this isn't a flame, I leave you with a quote from _Invasion of \nthe Body Snatchers_:\n\n\"Become one of us; it's not so bad, you know\"",
         "true_label": "sci.space",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "\nStuff deleted\n\n\nI have to confess that this is one of my few unfulfilled ambitions.\nNo matter how much I eat, it still seems realistic.",
-        "true_label": "sci.med",
-        "predicted_label": "sci.space"
+        "predicted_label": "rec.sport.hockey"
       },
       {
         "text": "\n\n\n   I agree. I also think Roy needs a good kick sometimes...that horrible\n4-0 loss to the Capitals last week...yeeeech!\n\n   Here's to Cup #23...this year!\n\n \n-- \nRichard J. Rauser        \"You have no idea what you're doing.\"\nrauser@sfu.ca            \"Oh, don't worry about that. We're professional\nWNI                          outlaws - we do this for a living.\"",
@@ -542,16 +527,31 @@
         "text": "I was reading Popular Science this morning and was surprised by an ad in\nthe back.  I know that a lot of the ads in the back of PS are fringe\nscience or questionablely legal, but this one really grabbed my attention.\nIt was from a company name \"Personal Missle, Inc.\" or something like that.\n\nAnyhow, the ad stated that they'd sell rockets that were up to 20' in length\nand engines of sizes \"F\" to \"M\".  They also said that some rockets will\nreach 50,000 feet.\n\nNow, aside from the obvious dangers to any amateur rocketeer using one\nof these beasts, isn't this illegal?  I can't imagine the FAA allowing\npeople to shoot rockets up through the flight levels of passenger planes.\nNot to even mention the problem of locating a rocket when it comes down.\n\nAnd no, I'm not going to even think of buying one.  I'm not that crazy.\n\n\n-Paul \"mine'll do 50,000 feet and carries 50 pounds of dynamite\" Dokas",
         "true_label": "sci.space",
         "predicted_label": "sci.med"
+      },
+      {
+        "text": "SP> From: paulson@tab00.larc.nasa.gov (Sharon Paulson)\nSP> to describe here.  I have a fourteen year old daugter who experienced\nSP> a seizure on November 3, 1992 at 6:45AM after eating Kellog's Frosted\nSP> Flakes.\n\nSP> Well, we were going along fine and the other morning, April 5, she had\nSP> a bowl of another Kellog's frosted kind of cereal, Fruit Loops (I am\n\nSP> When I mentioned what she ate the first time as a possible reason for\nSP> the seizure the neurologist basically negated that as an idea.  Now\nSP> after this second episode, so similar in nature to the first, even\nSP> he is scratching his head.\n\nThere's no data that sugar-coated cereals cause seizures.  I haven't\neven seen anything anecdotal on it.  Given how common they are eaten\n- do you know any child or adolescent who *doesn't* eat the stuff? -\nI think that if there were a relationship we would know it by now.\nAlso, there's nothing weird in those cereals.  As far as the brain\nis concerned (except for a few infantile metabolic disorders such as\ngalactosemia), sugar is sugar, regardless if it is coated on cereal,\nsprinkled onto cereal, or dissolved in soda, coffee or whatever.\n\nThere was some interest a few years ago in aspartame lowering\nseizure thresholds, but I don't believe anything ever came of it.",
+        "true_label": "sci.med",
+        "predicted_label": "rec.sport.hockey"
+      },
+      {
+        "text": "David\n\n\n",
+        "true_label": "rec.sport.hockey",
+        "predicted_label": "sci.med"
+      },
+      {
+        "text": "\t.\n\t.\n\t.\n\nSince I was born in the late Pleistocene, I too remember 1964.  That year,\nthe Dodgers were several games out of first and I think finished sixth in the\nleague.  This was kind of odd because they won the World Series both the\nprevious year and the following year.\n  \n\n-- \nWarren Usui",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "rec.sport.hockey"
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\a4780b84.pkl",
-      "confusion_matrix_key": "a4780b84_cm"
+      "model_path": "runs\\models\\0212cf06.pkl",
+      "confusion_matrix_key": "0212cf06_cm"
     }
   },
   {
-    "experiment_id": "ff855829",
-    "timestamp": "2026-06-30T17:30:24.310273+00:00",
+    "experiment_id": "a30fccfd",
+    "timestamp": "2026-07-01T02:40:39.153660+00:00",
     "framework_version": "1.0.0",
     "task": "clustering",
     "dataset": "20newsgroups",
@@ -573,34 +573,34 @@
       "n_clusters": 4
     },
     "metrics": {
-      "silhouette_score": -0.04252227746936163
+      "silhouette_score": 0.003976270026740051
     },
     "cluster_preview": {
       "cluster_0": [
-        "",
-        "heard it will be the minnesotadetroit game dont know the time though dave",
-        "1993 world championships in germany group standings munich group standings dortmund gp gfga gp gfga "
+        "oh us big degrees dont got imagination huh alleged dichotomy imagination knowledge one pernicious fa",
+        "whoa say name address ssn smoking foods eh think govt would like know",
+        "catcher weakest position possible exception second base chance simultaneously replace biggest offens"
       ],
       "cluster_1": [
-        "then allow to enlighten you rex you see theres thing called tie tie is worth one point know know you",
-        "have posted the logos of the nl east teams to altbinariespicturesmisc hopefully ill finish the serie",
-        "nolan ryan has torn cartlidge inhis right knee is having surgery and is expected to miss 25 weeks"
+        "allow enlighten rex see theres thing called tie tie worth one point know know youre good math bear w",
+        "posted logos nl east teams altbinariespicturesmisc hopefully ill finish series next week nl west dar",
+        "heard minnesotadetroit game dont know time though dave"
       ],
       "cluster_2": [
-        "catcher is their weakest position with the possible exception of second base they have chance to sim",
-        "us easterners who have newspapers with editors unsympathetic to playoff pools often dont get summari",
-        "soderstrom plays with philly but he doesnt have moulded mask hes got the helmet and cage variety in "
+        "found sublinguals disappearing dont know perhaps werent profitable cafergot bad since tablets someti",
+        "especially useful still isnt punishing red cross person needed blood couldnt get right nagging proba",
+        "im sure see poll took showed people thought physicians paid 80000 per year tops thats make doubt phy"
       ],
       "cluster_3": [
-        "oh and us with the big degrees dont got imagination huh the alleged dichotomy between imagination an",
-        "whoa what did you say your name was address ssn smoking foods eh think the govt would like to know a",
-        "are most players who come up young always good when theyre young or later damn was afraid you would "
+        "players come young always good theyre young later damn afraid would say well perhaps braves one else",
+        "would explain widely separated detectors ulysses pvo ginga et al would see burst time fact fore bats",
+        "fortunate enough tickets oriolesred sox game baltimore saturday july 31st havent new park wondering "
       ]
     }
   },
   {
-    "experiment_id": "f4c19b61",
-    "timestamp": "2026-06-30T17:30:33.004317+00:00",
+    "experiment_id": "b8eb6977",
+    "timestamp": "2026-07-01T02:40:45.324680+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "20newsgroups",
@@ -621,7 +621,7 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "algorithm": "logistic_regression",
@@ -629,44 +629,44 @@
       "solver": "lbfgs"
     },
     "metrics": {
-      "accuracy": 0.8,
-      "f1_weighted": 0.8001419665184775,
+      "accuracy": 0.775,
+      "f1_weighted": 0.7754160065617239,
       "classification_report": {
         "rec.sport.baseball": {
-          "precision": 0.8076923076923077,
-          "recall": 0.7,
-          "f1-score": 0.75,
+          "precision": 0.7857142857142857,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.7586206896551724,
           "support": 30.0
         },
         "rec.sport.hockey": {
-          "precision": 0.896551724137931,
-          "recall": 0.8125,
-          "f1-score": 0.8524590163934426,
+          "precision": 0.8333333333333334,
+          "recall": 0.78125,
+          "f1-score": 0.8064516129032258,
           "support": 32.0
         },
         "sci.med": {
-          "precision": 0.71875,
-          "recall": 0.8518518518518519,
-          "f1-score": 0.7796610169491526,
+          "precision": 0.7777777777777778,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.7777777777777778,
           "support": 27.0
         },
         "sci.space": {
-          "precision": 0.7878787878787878,
-          "recall": 0.8387096774193549,
-          "f1-score": 0.8125,
+          "precision": 0.7142857142857143,
+          "recall": 0.8064516129032258,
+          "f1-score": 0.7575757575757576,
           "support": 31.0
         },
-        "accuracy": 0.8,
+        "accuracy": 0.775,
         "macro avg": {
-          "precision": 0.8027182049272568,
-          "recall": 0.8007653823178017,
-          "f1-score": 0.7986550083356488,
+          "precision": 0.7777777777777778,
+          "recall": 0.7747031810035843,
+          "f1-score": 0.7751064594779833,
           "support": 120.0
         },
         "weighted avg": {
-          "precision": 0.8062576402285454,
-          "recall": 0.8,
-          "f1-score": 0.8001419665184775,
+          "precision": 0.7781746031746032,
+          "recall": 0.775,
+          "f1-score": 0.7754160065617239,
           "support": 120.0
         }
       }
@@ -688,11 +688,6 @@
         "predicted_label": "sci.med"
       },
       {
-        "text": "\nAgreed here...I'll never forget Dan Kelly calling the play-by-play in the '87\nCanada Cup.  He was masterful!\n\nAnd Danny Gallivan will _never_ be replaced; even now when I watch HNIC I\nremember his voice...when I see an Al MacInnis or Al Iafrate (hey, what's with\nthese guys named Al who can shoot??) shot from the point I still think\n\"blistering blast\"...THN had a tribute to Gallivan in the issue following his\ndeath; in the story they included a quote from one of the games he did.  It\nwent: \n\n\"It appears Risebrough has pugnaciously construed that check,\" he said, \"and \nwill undoubtedly make a visitation to the box of punition.\"\n\nClassic, vintage Gallivan!  He's sorely missed.  So here's to two of the best\nthere was and best that ever will be.\n",
-        "true_label": "rec.sport.hockey",
-        "predicted_label": "rec.sport.baseball"
-      },
-      {
         "text": "Henry,\n\ndidn't the Little Joe  and Big Joe  get built in under a year?\n6 months for little Joe,  and 12 Months for Big Joe?\n\ni thought i saw something on that for  a old mercury film.",
         "true_label": "sci.space",
         "predicted_label": "rec.sport.baseball"
@@ -706,11 +701,6 @@
         "text": "\nYou obviously did not watch the Twins in Chicago.\n\nNo cold spell?  It's been snowing most of the week in Minnesota.\n(5 inches in Duluth last weekend)\n\n\nYup.\n",
         "true_label": "rec.sport.baseball",
         "predicted_label": "rec.sport.hockey"
-      },
-      {
-        "text": "\n\tThe South Florida Colons.\n\n\t:)\n",
-        "true_label": "rec.sport.hockey",
-        "predicted_label": "sci.space"
       },
       {
         "text": "\n\nOh, and us with the big degrees don't got imagination, huh?\n\nThe alleged dichotomy between imagination and knowledge is one of the most\npernicious fallacys of the New Age.  Michael, thanks for the generous\noffer, but we have quite enough dreams of our own, thank you.\n\nYou, on the other hand, are letting your own dreams go to waste by\nfailing to get the maths/thermodynamics/chemistry/(your choices here)\nwhich would give your imagination wings.\n\nJust to show this isn't a flame, I leave you with a quote from _Invasion of \nthe Body Snatchers_:\n\n\"Become one of us; it's not so bad, you know\"",
@@ -733,12 +723,12 @@
         "predicted_label": "sci.space"
       },
       {
-        "text": "\n\nGoing into the ninth with a 3 run lead, ...2 runs score...runners on \nfirst and second...RD throws, \"there's a drive waaaaaayyyyyyy back, \nPuckett to the wall, leaps, He CAUGHT THE BALL!!!!  WHAT A CATCH BY KIRBY!!\nTWINS WIN!\"  and RD gets the save.  His line 1 IP, 2 walks, 2 hits, and\none robbed home run...",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "rec.sport.hockey"
+        "text": "David\n\n\n",
+        "true_label": "rec.sport.hockey",
+        "predicted_label": "rec.sport.baseball"
       },
       {
-        "text": "David\n\n\n",
+        "text": "\nWell, since the Oilers didn't win a heck of a lot of games, I'm not sure\nthey deserve and MVP (\"can't win without him\").  However, I'd suggest Kelly\nBuchberger instead of Dave Manson, who has had a brutal year, his pick for\nthe All-Star game notwithstanding.\n\nAs for biggest surprise, I'd say that Buchberger had higher expectations\nthis year due to his \"breakthrough\" year (for him) last year, so he didn't\nreally raise his game.  My suggestion would be Shjon Podein, one of the\ncallups from Cape Breton during the year.  He was quite far down on the\ndepth chart in the Oilers stable of prospects, but made a big impact on\nthe team.  He has 12 goals in his 33 games and is only -1.  Those are decent\nnumbers for a third-line player who was seemingly doomed to minor-league\noblivion.  The Oilers coaching staff likens his style to John Tonelli.\nI think he'll be on the full-time roster next year.\n\nAs for biggest disappointment, you could name any of the players the Oilers\ndumped for lousy production this year (Nicholls, Gilchrist, Tikkanen) or\neven Shayne Corson, but Mellanby isn't far off.\n\n-- \nAndrew Scott                    | andrew@idacom.hp.com\nHP IDACOM Telecom Division      | (403) 462-0666 ext. 253",
         "true_label": "rec.sport.hockey",
         "predicted_label": "rec.sport.baseball"
       },
@@ -748,39 +738,49 @@
         "predicted_label": "sci.med"
       },
       {
+        "text": "If you can get it, you might want to try a Canadian over-the-counter product\ncalled Secaris, which is a water-soluble gel.  Compared to Vaseline or other\ngreasy ointments, Secaris seems more compatible with the moisture that's\nalready there.\n",
+        "true_label": "sci.med",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "\n\n\nYes, and I do everyone else.  Why, you may wonder, don't I do 'Fred'?\nWell, that would just be too *obvious*, wouldn't it?  Oh yeah, this\nisn't my real name, either.  I'm actually Elvis.  Or maybe a lemur; I\nsometimes have difficulty telling which is which.\n\n-- \n\"Insisting on perfect safety is for people who don't have the balls to live\n in the real world.\"   -- Mary Shafer, NASA Ames Dryden",
+        "true_label": "sci.space",
+        "predicted_label": "rec.sport.hockey"
+      },
+      {
         "text": "I made a mistake on the posted article [been fighting food\npoisoning for last 24 hours...]\n\nThe second paragraph should state the following...\n\n\"Doctors cleared Sandberg to swing a padded bat at a ball\non a tee and to catch a ball in his gloved hand.\"\n\nSorry for the error, didn't know it until after posting.",
         "true_label": "rec.sport.baseball",
         "predicted_label": "sci.med"
       },
       {
-        "text": "",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "How long has Don Cherry been a student at SFU? (or is that Arche Bunker?)\n\nPlease, keep this racist drivel off of the net.  You're an embarassment\nto Canadians everywhere.",
-        "true_label": "rec.sport.hockey",
+        "text": " ",
+        "true_label": "sci.med",
         "predicted_label": "sci.space"
       },
       {
         "text": "",
         "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "\n\nAccording to what reasonable principle of justice does standing in intimate\ngeographical and psychological relations to a league give one some privileged\nright to play in it?",
+        "true_label": "rec.sport.hockey",
         "predicted_label": "sci.med"
       },
       {
-        "text": "While I enjoy the trend towards the more classic style of uniform - \nand I disagree with the person who wants a return to the non-gray road \nuniforms - it should be remembered that one of the, if not THE reason \nfor the redesigning of uniforms, especially hats (re: the new road all \ngreen A's caps and the cardinal navy blue road cap), is the marketing \nmoney to be made in sales of new merchandise. ",
+        "text": "",
         "true_label": "rec.sport.baseball",
         "predicted_label": "sci.space"
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\f4c19b61.pkl",
-      "confusion_matrix_key": "f4c19b61_cm"
+      "model_path": "runs\\models\\b8eb6977.pkl",
+      "confusion_matrix_key": "b8eb6977_cm"
     }
   },
   {
-    "experiment_id": "16e65522",
-    "timestamp": "2026-06-30T17:31:10.963777+00:00",
+    "experiment_id": "964118cd",
+    "timestamp": "2026-07-01T02:41:02.512280+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "20newsgroups",
@@ -801,7 +801,7 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "algorithm": "logistic_regression",
@@ -809,44 +809,44 @@
       "solver": "lbfgs"
     },
     "metrics": {
-      "accuracy": 0.8,
-      "f1_weighted": 0.8001419665184775,
+      "accuracy": 0.775,
+      "f1_weighted": 0.7754160065617239,
       "classification_report": {
         "rec.sport.baseball": {
-          "precision": 0.8076923076923077,
-          "recall": 0.7,
-          "f1-score": 0.75,
+          "precision": 0.7857142857142857,
+          "recall": 0.7333333333333333,
+          "f1-score": 0.7586206896551724,
           "support": 30.0
         },
         "rec.sport.hockey": {
-          "precision": 0.896551724137931,
-          "recall": 0.8125,
-          "f1-score": 0.8524590163934426,
+          "precision": 0.8333333333333334,
+          "recall": 0.78125,
+          "f1-score": 0.8064516129032258,
           "support": 32.0
         },
         "sci.med": {
-          "precision": 0.71875,
-          "recall": 0.8518518518518519,
-          "f1-score": 0.7796610169491526,
+          "precision": 0.7777777777777778,
+          "recall": 0.7777777777777778,
+          "f1-score": 0.7777777777777778,
           "support": 27.0
         },
         "sci.space": {
-          "precision": 0.7878787878787878,
-          "recall": 0.8387096774193549,
-          "f1-score": 0.8125,
+          "precision": 0.7142857142857143,
+          "recall": 0.8064516129032258,
+          "f1-score": 0.7575757575757576,
           "support": 31.0
         },
-        "accuracy": 0.8,
+        "accuracy": 0.775,
         "macro avg": {
-          "precision": 0.8027182049272568,
-          "recall": 0.8007653823178017,
-          "f1-score": 0.7986550083356488,
+          "precision": 0.7777777777777778,
+          "recall": 0.7747031810035843,
+          "f1-score": 0.7751064594779833,
           "support": 120.0
         },
         "weighted avg": {
-          "precision": 0.8062576402285454,
-          "recall": 0.8,
-          "f1-score": 0.8001419665184775,
+          "precision": 0.7781746031746032,
+          "recall": 0.775,
+          "f1-score": 0.7754160065617239,
           "support": 120.0
         }
       }
@@ -868,11 +868,6 @@
         "predicted_label": "sci.med"
       },
       {
-        "text": "\nAgreed here...I'll never forget Dan Kelly calling the play-by-play in the '87\nCanada Cup.  He was masterful!\n\nAnd Danny Gallivan will _never_ be replaced; even now when I watch HNIC I\nremember his voice...when I see an Al MacInnis or Al Iafrate (hey, what's with\nthese guys named Al who can shoot??) shot from the point I still think\n\"blistering blast\"...THN had a tribute to Gallivan in the issue following his\ndeath; in the story they included a quote from one of the games he did.  It\nwent: \n\n\"It appears Risebrough has pugnaciously construed that check,\" he said, \"and \nwill undoubtedly make a visitation to the box of punition.\"\n\nClassic, vintage Gallivan!  He's sorely missed.  So here's to two of the best\nthere was and best that ever will be.\n",
-        "true_label": "rec.sport.hockey",
-        "predicted_label": "rec.sport.baseball"
-      },
-      {
         "text": "Henry,\n\ndidn't the Little Joe  and Big Joe  get built in under a year?\n6 months for little Joe,  and 12 Months for Big Joe?\n\ni thought i saw something on that for  a old mercury film.",
         "true_label": "sci.space",
         "predicted_label": "rec.sport.baseball"
@@ -886,11 +881,6 @@
         "text": "\nYou obviously did not watch the Twins in Chicago.\n\nNo cold spell?  It's been snowing most of the week in Minnesota.\n(5 inches in Duluth last weekend)\n\n\nYup.\n",
         "true_label": "rec.sport.baseball",
         "predicted_label": "rec.sport.hockey"
-      },
-      {
-        "text": "\n\tThe South Florida Colons.\n\n\t:)\n",
-        "true_label": "rec.sport.hockey",
-        "predicted_label": "sci.space"
       },
       {
         "text": "\n\nOh, and us with the big degrees don't got imagination, huh?\n\nThe alleged dichotomy between imagination and knowledge is one of the most\npernicious fallacys of the New Age.  Michael, thanks for the generous\noffer, but we have quite enough dreams of our own, thank you.\n\nYou, on the other hand, are letting your own dreams go to waste by\nfailing to get the maths/thermodynamics/chemistry/(your choices here)\nwhich would give your imagination wings.\n\nJust to show this isn't a flame, I leave you with a quote from _Invasion of \nthe Body Snatchers_:\n\n\"Become one of us; it's not so bad, you know\"",
@@ -913,12 +903,12 @@
         "predicted_label": "sci.space"
       },
       {
-        "text": "\n\nGoing into the ninth with a 3 run lead, ...2 runs score...runners on \nfirst and second...RD throws, \"there's a drive waaaaaayyyyyyy back, \nPuckett to the wall, leaps, He CAUGHT THE BALL!!!!  WHAT A CATCH BY KIRBY!!\nTWINS WIN!\"  and RD gets the save.  His line 1 IP, 2 walks, 2 hits, and\none robbed home run...",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "rec.sport.hockey"
+        "text": "David\n\n\n",
+        "true_label": "rec.sport.hockey",
+        "predicted_label": "rec.sport.baseball"
       },
       {
-        "text": "David\n\n\n",
+        "text": "\nWell, since the Oilers didn't win a heck of a lot of games, I'm not sure\nthey deserve and MVP (\"can't win without him\").  However, I'd suggest Kelly\nBuchberger instead of Dave Manson, who has had a brutal year, his pick for\nthe All-Star game notwithstanding.\n\nAs for biggest surprise, I'd say that Buchberger had higher expectations\nthis year due to his \"breakthrough\" year (for him) last year, so he didn't\nreally raise his game.  My suggestion would be Shjon Podein, one of the\ncallups from Cape Breton during the year.  He was quite far down on the\ndepth chart in the Oilers stable of prospects, but made a big impact on\nthe team.  He has 12 goals in his 33 games and is only -1.  Those are decent\nnumbers for a third-line player who was seemingly doomed to minor-league\noblivion.  The Oilers coaching staff likens his style to John Tonelli.\nI think he'll be on the full-time roster next year.\n\nAs for biggest disappointment, you could name any of the players the Oilers\ndumped for lousy production this year (Nicholls, Gilchrist, Tikkanen) or\neven Shayne Corson, but Mellanby isn't far off.\n\n-- \nAndrew Scott                    | andrew@idacom.hp.com\nHP IDACOM Telecom Division      | (403) 462-0666 ext. 253",
         "true_label": "rec.sport.hockey",
         "predicted_label": "rec.sport.baseball"
       },
@@ -928,39 +918,49 @@
         "predicted_label": "sci.med"
       },
       {
+        "text": "If you can get it, you might want to try a Canadian over-the-counter product\ncalled Secaris, which is a water-soluble gel.  Compared to Vaseline or other\ngreasy ointments, Secaris seems more compatible with the moisture that's\nalready there.\n",
+        "true_label": "sci.med",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "\n\n\nYes, and I do everyone else.  Why, you may wonder, don't I do 'Fred'?\nWell, that would just be too *obvious*, wouldn't it?  Oh yeah, this\nisn't my real name, either.  I'm actually Elvis.  Or maybe a lemur; I\nsometimes have difficulty telling which is which.\n\n-- \n\"Insisting on perfect safety is for people who don't have the balls to live\n in the real world.\"   -- Mary Shafer, NASA Ames Dryden",
+        "true_label": "sci.space",
+        "predicted_label": "rec.sport.hockey"
+      },
+      {
         "text": "I made a mistake on the posted article [been fighting food\npoisoning for last 24 hours...]\n\nThe second paragraph should state the following...\n\n\"Doctors cleared Sandberg to swing a padded bat at a ball\non a tee and to catch a ball in his gloved hand.\"\n\nSorry for the error, didn't know it until after posting.",
         "true_label": "rec.sport.baseball",
         "predicted_label": "sci.med"
       },
       {
-        "text": "",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "How long has Don Cherry been a student at SFU? (or is that Arche Bunker?)\n\nPlease, keep this racist drivel off of the net.  You're an embarassment\nto Canadians everywhere.",
-        "true_label": "rec.sport.hockey",
+        "text": " ",
+        "true_label": "sci.med",
         "predicted_label": "sci.space"
       },
       {
         "text": "",
         "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "\n\nAccording to what reasonable principle of justice does standing in intimate\ngeographical and psychological relations to a league give one some privileged\nright to play in it?",
+        "true_label": "rec.sport.hockey",
         "predicted_label": "sci.med"
       },
       {
-        "text": "While I enjoy the trend towards the more classic style of uniform - \nand I disagree with the person who wants a return to the non-gray road \nuniforms - it should be remembered that one of the, if not THE reason \nfor the redesigning of uniforms, especially hats (re: the new road all \ngreen A's caps and the cardinal navy blue road cap), is the marketing \nmoney to be made in sales of new merchandise. ",
+        "text": "",
         "true_label": "rec.sport.baseball",
         "predicted_label": "sci.space"
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\16e65522.pkl",
-      "confusion_matrix_key": "16e65522_cm"
+      "model_path": "runs\\models\\964118cd.pkl",
+      "confusion_matrix_key": "964118cd_cm"
     }
   },
   {
-    "experiment_id": "5c0be0bc",
-    "timestamp": "2026-06-30T17:31:22.670697+00:00",
+    "experiment_id": "54c21b53",
+    "timestamp": "2026-07-01T02:41:15.852377+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "20newsgroups",
@@ -981,51 +981,51 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "algorithm": "random_forest",
       "n_estimators": 100
     },
     "metrics": {
-      "accuracy": 0.8166666666666667,
-      "f1_weighted": 0.8152663363528686,
+      "accuracy": 0.7666666666666667,
+      "f1_weighted": 0.7624553145748064,
       "classification_report": {
         "rec.sport.baseball": {
-          "precision": 0.8695652173913043,
-          "recall": 0.6666666666666666,
-          "f1-score": 0.7547169811320755,
+          "precision": 0.7391304347826086,
+          "recall": 0.5666666666666667,
+          "f1-score": 0.6415094339622641,
           "support": 30.0
         },
         "rec.sport.hockey": {
-          "precision": 0.875,
-          "recall": 0.875,
-          "f1-score": 0.875,
+          "precision": 0.7428571428571429,
+          "recall": 0.8125,
+          "f1-score": 0.7761194029850746,
           "support": 32.0
         },
         "sci.med": {
-          "precision": 0.7096774193548387,
+          "precision": 0.7333333333333333,
           "recall": 0.8148148148148148,
-          "f1-score": 0.7586206896551724,
+          "f1-score": 0.7719298245614035,
           "support": 27.0
         },
         "sci.space": {
-          "precision": 0.8235294117647058,
-          "recall": 0.9032258064516129,
-          "f1-score": 0.8615384615384616,
+          "precision": 0.84375,
+          "recall": 0.8709677419354839,
+          "f1-score": 0.8571428571428571,
           "support": 31.0
         },
-        "accuracy": 0.8166666666666667,
+        "accuracy": 0.7666666666666667,
         "macro avg": {
-          "precision": 0.8194430121277121,
-          "recall": 0.8149268219832736,
-          "f1-score": 0.8124690330814274,
+          "precision": 0.7647677277432712,
+          "recall": 0.7662373058542413,
+          "f1-score": 0.7616753796628998,
           "support": 120.0
         },
         "weighted avg": {
-          "precision": 0.8231471550752137,
-          "recall": 0.8166666666666667,
-          "f1-score": 0.8152663363528686,
+          "precision": 0.7658465967908903,
+          "recall": 0.7666666666666667,
+          "f1-score": 0.7624553145748064,
           "support": 120.0
         }
       }
@@ -1037,12 +1037,22 @@
         "predicted_label": "sci.space"
       },
       {
+        "text": "\n\n   >Very cost effective if you use the right accounting method :-)\n\n   Sherzer Methodology!!!!!!\n\nHell, yes. I'm not going to let a bunch of seven suits tell\nme what the right way to estimate cost effectiveness is, at\nleast not until they can make their mind up long enough\nto leave their scheme stable for a fiscal year or two.\n\n\nSeriously though. If you were to ask the British government\nwhether their colonisation efforts in the Americas were cost\neffective, what answer do you think you'd get? What if you asked\nin 1765, 1815, 1865, 1915 and 1945 respectively? ;-)",
+        "true_label": "sci.space",
+        "predicted_label": "sci.med"
+      },
+      {
         "text": "\n\n\n\n\n\nI note that you make no such case as you claim can be 'even more\neasily made'.  Yes, the argument can (and has) been made that current\ngovernment policy creates even larger market barriers than there were\nin the first place, but there is no such term as 'government failure',\nsince the government can change policies whenever it pleases.  The\nmarket doesn't do that and is governed by (relatively) well-understood\nforces.  This libertopican bilge about 'moral arguments' about\ntaxation, etc., is, at bottom, so much simplistic economic thinking.\nIt can only be 'justified' by cliche derision of anyone who knows more\nabout economics than the libertopian -- which is what invariably\nhappens.  Tripe a la Tommy, the new libertopian dish.\n\n\n\nWherever do you get this inflated idea of your own importance?\n\n-- \n\"Insisting on perfect safety is for people who don't have the balls to live\n in the real world.\"   -- Mary Shafer, NASA Ames Dryden",
         "true_label": "sci.space",
         "predicted_label": "sci.med"
       },
       {
-        "text": "Davis will be paid by three clubs this year, I think the Phils are\nresponsbible for about $600,000 or so.  They didn't wait for him to clear\nwaivers as three other clubs were also very interested in him.  A gamble?\nYes.\n\nWon the CY Young, too, for that year.",
+        "text": "Would someone please give me the address for Texas Ranger\nticket orders. Thanks very much.",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "rec.sport.hockey"
+      },
+      {
+        "text": "Bo Bilinsky?\n\n\n",
         "true_label": "rec.sport.baseball",
         "predicted_label": "rec.sport.hockey"
       },
@@ -1057,27 +1067,22 @@
         "predicted_label": "rec.sport.hockey"
       },
       {
-        "text": "MELITTIN",
-        "true_label": "sci.med",
-        "predicted_label": "rec.sport.hockey"
-      },
-      {
-        "text": "\n\tThe South Florida Colons.\n\n\t:)\n",
-        "true_label": "rec.sport.hockey",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "\n\nOh, and us with the big degrees don't got imagination, huh?\n\nThe alleged dichotomy between imagination and knowledge is one of the most\npernicious fallacys of the New Age.  Michael, thanks for the generous\noffer, but we have quite enough dreams of our own, thank you.\n\nYou, on the other hand, are letting your own dreams go to waste by\nfailing to get the maths/thermodynamics/chemistry/(your choices here)\nwhich would give your imagination wings.\n\nJust to show this isn't a flame, I leave you with a quote from _Invasion of \nthe Body Snatchers_:\n\n\"Become one of us; it's not so bad, you know\"",
-        "true_label": "sci.space",
-        "predicted_label": "sci.med"
-      },
-      {
         "text": "\n\n\n   I agree. I also think Roy needs a good kick sometimes...that horrible\n4-0 loss to the Capitals last week...yeeeech!\n\n   Here's to Cup #23...this year!\n\n \n-- \nRichard J. Rauser        \"You have no idea what you're doing.\"\nrauser@sfu.ca            \"Oh, don't worry about that. We're professional\nWNI                          outlaws - we do this for a living.\"",
         "true_label": "rec.sport.hockey",
         "predicted_label": "rec.sport.baseball"
       },
       {
+        "text": "\nDo you realize how many smiles are crossing faces after you wrote that?\n(-;\n\ngld",
+        "true_label": "rec.sport.hockey",
+        "predicted_label": "sci.space"
+      },
+      {
         "text": "David\n\n\n",
+        "true_label": "rec.sport.hockey",
+        "predicted_label": "rec.sport.baseball"
+      },
+      {
+        "text": "\nWell, since the Oilers didn't win a heck of a lot of games, I'm not sure\nthey deserve and MVP (\"can't win without him\").  However, I'd suggest Kelly\nBuchberger instead of Dave Manson, who has had a brutal year, his pick for\nthe All-Star game notwithstanding.\n\nAs for biggest surprise, I'd say that Buchberger had higher expectations\nthis year due to his \"breakthrough\" year (for him) last year, so he didn't\nreally raise his game.  My suggestion would be Shjon Podein, one of the\ncallups from Cape Breton during the year.  He was quite far down on the\ndepth chart in the Oilers stable of prospects, but made a big impact on\nthe team.  He has 12 goals in his 33 games and is only -1.  Those are decent\nnumbers for a third-line player who was seemingly doomed to minor-league\noblivion.  The Oilers coaching staff likens his style to John Tonelli.\nI think he'll be on the full-time roster next year.\n\nAs for biggest disappointment, you could name any of the players the Oilers\ndumped for lousy production this year (Nicholls, Gilchrist, Tikkanen) or\neven Shayne Corson, but Mellanby isn't far off.\n\n-- \nAndrew Scott                    | andrew@idacom.hp.com\nHP IDACOM Telecom Division      | (403) 462-0666 ext. 253",
         "true_label": "rec.sport.hockey",
         "predicted_label": "rec.sport.baseball"
       },
@@ -1092,29 +1097,24 @@
         "predicted_label": "rec.sport.hockey"
       },
       {
+        "text": "If you can get it, you might want to try a Canadian over-the-counter product\ncalled Secaris, which is a water-soluble gel.  Compared to Vaseline or other\ngreasy ointments, Secaris seems more compatible with the moisture that's\nalready there.\n",
+        "true_label": "sci.med",
+        "predicted_label": "sci.space"
+      },
+      {
+        "text": "\n\n\nYes, and I do everyone else.  Why, you may wonder, don't I do 'Fred'?\nWell, that would just be too *obvious*, wouldn't it?  Oh yeah, this\nisn't my real name, either.  I'm actually Elvis.  Or maybe a lemur; I\nsometimes have difficulty telling which is which.\n\n-- \n\"Insisting on perfect safety is for people who don't have the balls to live\n in the real world.\"   -- Mary Shafer, NASA Ames Dryden",
+        "true_label": "sci.space",
+        "predicted_label": "rec.sport.hockey"
+      },
+      {
         "text": "I made a mistake on the posted article [been fighting food\npoisoning for last 24 hours...]\n\nThe second paragraph should state the following...\n\n\"Doctors cleared Sandberg to swing a padded bat at a ball\non a tee and to catch a ball in his gloved hand.\"\n\nSorry for the error, didn't know it until after posting.",
         "true_label": "rec.sport.baseball",
         "predicted_label": "sci.med"
       },
       {
-        "text": "",
+        "text": "\nTheir phone number is 1-800-377-9777. The last catalog shows three \nOaks jerseys: 36 Home, 42 Home, 39 Home - they're each $165.00.  All their\nmerchandise is handmade and is an authentic replica.  I own a couple -\nand they are excellent. They also have wool caps and jackets.  You should\ncall to get on their mailing list even if you can't afford their prices.",
         "true_label": "rec.sport.baseball",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": " \nTo construct a Kirlian device find a copy of _Handbook of Psychic\nDiscoveries_ by Sheila Ostrander and Lynn Schroeder 1975 Library of\nCongress 73-88532.  It describes the necessary equipment and\n suppliers for the Tesla coil or alternatives, the copper plate and\nsetup. I used a pack of SX-70 film and removed a single pack in a\ndark room, then made the exposure, put it back in the film pack and\nran it out through the rollers of the camera forinstant developing\nand very high quality.  It is a good way to experience what Kirlian\nPhotography is really and what it is not.  As you know all ready,\nit is the pattern in the bioplasmic energy fieldthat is significant.\nVariations caused by exposure time, distance from the plate, or\npressure on the plate, or variations in the photo materials are not\nimportant.",
-        "true_label": "sci.med",
-        "predicted_label": "sci.space"
-      },
-      {
-        "text": "While I enjoy the trend towards the more classic style of uniform - \nand I disagree with the person who wants a return to the non-gray road \nuniforms - it should be remembered that one of the, if not THE reason \nfor the redesigning of uniforms, especially hats (re: the new road all \ngreen A's caps and the cardinal navy blue road cap), is the marketing \nmoney to be made in sales of new merchandise. ",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "sci.space"
+        "predicted_label": "rec.sport.hockey"
       },
       {
         "text": "",
@@ -1122,24 +1122,24 @@
         "predicted_label": "sci.med"
       },
       {
-        "text": "",
-        "true_label": "rec.sport.baseball",
-        "predicted_label": "sci.med"
-      },
-      {
-        "text": "\nI had heard(perhaps incorrectly) that while Lemieux was out, noone wore a\nC on their jersey.  The As took turns doing captain duties(whatever they\nare).\n\nScott...\nscott.marks@launchpad.unc.edu\nscott.marks@launchpad.unc.edu",
+        "text": "\n\nAccording to what reasonable principle of justice does standing in intimate\ngeographical and psychological relations to a league give one some privileged\nright to play in it?",
         "true_label": "rec.sport.hockey",
         "predicted_label": "rec.sport.baseball"
+      },
+      {
+        "text": "",
+        "true_label": "rec.sport.baseball",
+        "predicted_label": "sci.med"
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\5c0be0bc.pkl",
-      "confusion_matrix_key": "5c0be0bc_cm"
+      "model_path": "runs\\models\\54c21b53.pkl",
+      "confusion_matrix_key": "54c21b53_cm"
     }
   },
   {
-    "experiment_id": "bfbdc4dc",
-    "timestamp": "2026-06-30T17:31:31.956001+00:00",
+    "experiment_id": "aa42015d",
+    "timestamp": "2026-07-01T02:41:29.098671+00:00",
     "framework_version": "1.0.0",
     "task": "clustering",
     "dataset": "20newsgroups",
@@ -1150,41 +1150,41 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "name": "kmeans",
       "n_clusters": 4
     },
     "metrics": {
-      "silhouette_score": 0.08706307411193848
+      "silhouette_score": 0.10030906647443771
     },
     "cluster_preview": {
       "cluster_0": [
+        "oh us big degrees dont got imagination huh alleged dichotomy imagination knowledge one pernicious fa",
+        "whoa say name address ssn smoking foods eh think govt would like know",
+        "tollfree hotline epilepsy foundation america 1800efa1000 able answer questions send information refe"
+      ],
+      "cluster_1": [
+        "allow enlighten rex see theres thing called tie tie worth one point know know youre good math bear w",
+        "catcher weakest position possible exception second base chance simultaneously replace biggest offens",
+        "posted logos nl east teams altbinariespicturesmisc hopefully ill finish series next week nl west dar"
+      ],
+      "cluster_2": [
+        "would explain widely separated detectors ulysses pvo ginga et al would see burst time fact fore bats",
+        "turning whats moonbase good ought post ive hundred odd posts go would think real reason moon base ec",
+        "nasm photo archives open public almost still pictures collection available viewing dont know films l"
+      ],
+      "cluster_3": [
         "",
         "",
         ""
-      ],
-      "cluster_1": [
-        "then allow to enlighten you rex you see theres thing called tie tie is worth one point know know you",
-        "catcher is their weakest position with the possible exception of second base they have chance to sim",
-        "have posted the logos of the nl east teams to altbinariespicturesmisc hopefully ill finish the serie"
-      ],
-      "cluster_2": [
-        "that would not explain why widely separated detectors such on ulysses and pvo and ginga et al would ",
-        "this is turning into whats moonbase good and ought not to post when ive hundred some odd posts to go",
-        "the nasm photo archives are open to the public all or almost all still pictures in the collection ar"
-      ],
-      "cluster_3": [
-        "oh and us with the big degrees dont got imagination huh the alleged dichotomy between imagination an",
-        "whoa what did you say your name was address ssn smoking foods eh think the govt would like to know a",
-        "here is the tollfree hotline the epilepsy foundation of america 1800efa1000 they will be able to ans"
       ]
     }
   },
   {
-    "experiment_id": "493bd461",
-    "timestamp": "2026-06-30T17:31:40.349084+00:00",
+    "experiment_id": "aef50e46",
+    "timestamp": "2026-07-01T02:41:41.692106+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "reviews",
@@ -1246,13 +1246,13 @@
     },
     "errors_sample": [],
     "artifacts": {
-      "model_path": "runs\\models\\493bd461.pkl",
-      "confusion_matrix_key": "493bd461_cm"
+      "model_path": "runs\\models\\aef50e46.pkl",
+      "confusion_matrix_key": "aef50e46_cm"
     }
   },
   {
-    "experiment_id": "119d1040",
-    "timestamp": "2026-06-30T17:31:40.391640+00:00",
+    "experiment_id": "a8406b84",
+    "timestamp": "2026-07-01T02:41:41.723696+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "reviews",
@@ -1315,13 +1315,13 @@
     },
     "errors_sample": [],
     "artifacts": {
-      "model_path": "runs\\models\\119d1040.pkl",
-      "confusion_matrix_key": "119d1040_cm"
+      "model_path": "runs\\models\\a8406b84.pkl",
+      "confusion_matrix_key": "a8406b84_cm"
     }
   },
   {
-    "experiment_id": "6caa936f",
-    "timestamp": "2026-06-30T17:31:40.417615+00:00",
+    "experiment_id": "3121723b",
+    "timestamp": "2026-07-01T02:41:41.747450+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "reviews",
@@ -1383,13 +1383,13 @@
     },
     "errors_sample": [],
     "artifacts": {
-      "model_path": "runs\\models\\6caa936f.pkl",
-      "confusion_matrix_key": "6caa936f_cm"
+      "model_path": "runs\\models\\3121723b.pkl",
+      "confusion_matrix_key": "3121723b_cm"
     }
   },
   {
-    "experiment_id": "ff43019b",
-    "timestamp": "2026-06-30T17:31:40.556886+00:00",
+    "experiment_id": "fdffa6e3",
+    "timestamp": "2026-07-01T02:41:41.899567+00:00",
     "framework_version": "1.0.0",
     "task": "clustering",
     "dataset": "reviews",
@@ -1411,24 +1411,24 @@
       "n_clusters": 2
     },
     "metrics": {
-      "silhouette_score": 0.05254152306855657
+      "silhouette_score": 0.05364269612657835
     },
     "cluster_preview": {
       "cluster_0": [
-        "produto excelente superou expectativas",
-        "opinião produto excelente superou expectativas",
-        "honestamente produto excelente superou expectativas"
+        "este produto excelente superou minhas expectativas",
+        "na minha opinião este produto excelente superou minhas expectativas",
+        "honestamente este produto excelente superou minhas expectativas"
       ],
       "cluster_1": [
-        "péssima qualidade quebrou primeiro dia uso",
-        "opinião péssima qualidade quebrou primeiro dia uso",
-        "honestamente péssima qualidade quebrou primeiro dia uso"
+        "péssima qualidade quebrou primeiro dia de uso",
+        "na minha opinião péssima qualidade quebrou primeiro dia de uso",
+        "honestamente péssima qualidade quebrou primeiro dia de uso"
       ]
     }
   },
   {
-    "experiment_id": "0c2f89f4",
-    "timestamp": "2026-06-30T17:31:40.589389+00:00",
+    "experiment_id": "b73896d9",
+    "timestamp": "2026-07-01T02:41:41.932276+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "reviews",
@@ -1447,7 +1447,7 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "algorithm": "logistic_regression",
@@ -1487,13 +1487,13 @@
     },
     "errors_sample": [],
     "artifacts": {
-      "model_path": "runs\\models\\0c2f89f4.pkl",
-      "confusion_matrix_key": "0c2f89f4_cm"
+      "model_path": "runs\\models\\b73896d9.pkl",
+      "confusion_matrix_key": "b73896d9_cm"
     }
   },
   {
-    "experiment_id": "96425f56",
-    "timestamp": "2026-06-30T17:31:45.107349+00:00",
+    "experiment_id": "824f4dd5",
+    "timestamp": "2026-07-01T02:41:48.335592+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "reviews",
@@ -1512,7 +1512,7 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "algorithm": "logistic_regression",
@@ -1552,13 +1552,13 @@
     },
     "errors_sample": [],
     "artifacts": {
-      "model_path": "runs\\models\\96425f56.pkl",
-      "confusion_matrix_key": "96425f56_cm"
+      "model_path": "runs\\models\\824f4dd5.pkl",
+      "confusion_matrix_key": "824f4dd5_cm"
     }
   },
   {
-    "experiment_id": "fe014ba5",
-    "timestamp": "2026-06-30T17:31:49.562901+00:00",
+    "experiment_id": "e70cc0f1",
+    "timestamp": "2026-07-01T02:41:54.430516+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "reviews",
@@ -1577,68 +1577,52 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "algorithm": "random_forest",
       "n_estimators": 100
     },
     "metrics": {
-      "accuracy": 0.8125,
-      "f1_weighted": 0.8117647058823529,
+      "accuracy": 1.0,
+      "f1_weighted": 1.0,
       "classification_report": {
         "negativo": {
-          "precision": 0.8571428571428571,
-          "recall": 0.75,
-          "f1-score": 0.8,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 8.0
         },
         "positivo": {
-          "precision": 0.7777777777777778,
-          "recall": 0.875,
-          "f1-score": 0.8235294117647058,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 8.0
         },
-        "accuracy": 0.8125,
+        "accuracy": 1.0,
         "macro avg": {
-          "precision": 0.8174603174603174,
-          "recall": 0.8125,
-          "f1-score": 0.8117647058823529,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 16.0
         },
         "weighted avg": {
-          "precision": 0.8174603174603174,
-          "recall": 0.8125,
-          "f1-score": 0.8117647058823529,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 16.0
         }
       }
     },
-    "errors_sample": [
-      {
-        "text": "Honestamente, Manual confuso e instalação complicada.",
-        "true_label": "negativo",
-        "predicted_label": "positivo"
-      },
-      {
-        "text": "Honestamente, Material frágil, não recomendo para uso intenso.",
-        "true_label": "negativo",
-        "predicted_label": "positivo"
-      },
-      {
-        "text": "Na minha opinião, Melhor compra que fiz este ano, qualidade top.",
-        "true_label": "positivo",
-        "predicted_label": "negativo"
-      }
-    ],
+    "errors_sample": [],
     "artifacts": {
-      "model_path": "runs\\models\\fe014ba5.pkl",
-      "confusion_matrix_key": "fe014ba5_cm"
+      "model_path": "runs\\models\\e70cc0f1.pkl",
+      "confusion_matrix_key": "e70cc0f1_cm"
     }
   },
   {
-    "experiment_id": "721de52e",
-    "timestamp": "2026-06-30T17:31:54.376113+00:00",
+    "experiment_id": "18e99ef1",
+    "timestamp": "2026-07-01T02:42:00.738551+00:00",
     "framework_version": "1.0.0",
     "task": "clustering",
     "dataset": "reviews",
@@ -1649,31 +1633,31 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "name": "kmeans",
       "n_clusters": 2
     },
     "metrics": {
-      "silhouette_score": 0.08670206367969513
+      "silhouette_score": 0.1388762891292572
     },
     "cluster_preview": {
       "cluster_0": [
-        "produto excelente superou expectativas",
-        "opinião produto excelente superou expectativas",
-        "honestamente produto excelente superou expectativas"
+        "este produto excelente superou minhas expectativas",
+        "na minha opinião este produto excelente superou minhas expectativas",
+        "honestamente este produto excelente superou minhas expectativas"
       ],
       "cluster_1": [
-        "vale preço pago decepcionante",
-        "opinião vale preço pago decepcionante",
-        "honestamente vale preço pago decepcionante"
+        "péssima qualidade quebrou primeiro dia de uso",
+        "na minha opinião péssima qualidade quebrou primeiro dia de uso",
+        "honestamente péssima qualidade quebrou primeiro dia de uso"
       ]
     }
   },
   {
-    "experiment_id": "6944b498",
-    "timestamp": "2026-06-30T17:31:59.162666+00:00",
+    "experiment_id": "e1df0616",
+    "timestamp": "2026-07-01T02:42:06.788823+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "noticias",
@@ -1769,13 +1753,13 @@
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\6944b498.pkl",
-      "confusion_matrix_key": "6944b498_cm"
+      "model_path": "runs\\models\\e1df0616.pkl",
+      "confusion_matrix_key": "e1df0616_cm"
     }
   },
   {
-    "experiment_id": "e36dfd21",
-    "timestamp": "2026-06-30T17:31:59.512374+00:00",
+    "experiment_id": "78e921a5",
+    "timestamp": "2026-07-01T02:42:07.055787+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "noticias",
@@ -1872,13 +1856,13 @@
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\e36dfd21.pkl",
-      "confusion_matrix_key": "e36dfd21_cm"
+      "model_path": "runs\\models\\78e921a5.pkl",
+      "confusion_matrix_key": "78e921a5_cm"
     }
   },
   {
-    "experiment_id": "7accbcb7",
-    "timestamp": "2026-06-30T17:31:59.686608+00:00",
+    "experiment_id": "eee5c351",
+    "timestamp": "2026-07-01T02:42:07.171201+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "noticias",
@@ -1989,13 +1973,13 @@
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\7accbcb7.pkl",
-      "confusion_matrix_key": "7accbcb7_cm"
+      "model_path": "runs\\models\\eee5c351.pkl",
+      "confusion_matrix_key": "eee5c351_cm"
     }
   },
   {
-    "experiment_id": "811dfe38",
-    "timestamp": "2026-06-30T17:31:59.908655+00:00",
+    "experiment_id": "29dadfe4",
+    "timestamp": "2026-07-01T02:42:07.381456+00:00",
     "framework_version": "1.0.0",
     "task": "clustering",
     "dataset": "noticias",
@@ -2053,8 +2037,8 @@
     }
   },
   {
-    "experiment_id": "45a49bec",
-    "timestamp": "2026-06-30T17:32:03.148716+00:00",
+    "experiment_id": "350ceda4",
+    "timestamp": "2026-07-01T02:42:09.228977+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "noticias",
@@ -2077,7 +2061,7 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "algorithm": "logistic_regression",
@@ -2085,95 +2069,69 @@
       "solver": "lbfgs"
     },
     "metrics": {
-      "accuracy": 0.9206349206349206,
-      "f1_weighted": 0.91907949181568,
+      "accuracy": 1.0,
+      "f1_weighted": 1.0,
       "classification_report": {
         "Economia": {
-          "precision": 0.9090909090909091,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1-score": 0.9523809523809523,
+          "f1-score": 1.0,
           "support": 10.0
         },
         "Esportes": {
-          "precision": 0.9166666666666666,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1-score": 0.9565217391304348,
+          "f1-score": 1.0,
           "support": 11.0
         },
         "Polícia e Direitos": {
-          "precision": 0.9090909090909091,
-          "recall": 0.9090909090909091,
-          "f1-score": 0.9090909090909091,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 11.0
         },
         "Política": {
-          "precision": 0.8888888888888888,
-          "recall": 0.8,
-          "f1-score": 0.8421052631578947,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 10.0
         },
         "Turismo": {
           "precision": 1.0,
-          "recall": 0.8333333333333334,
-          "f1-score": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 12.0
         },
         "Variedades e Sociedade": {
-          "precision": 0.9,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1-score": 0.9473684210526315,
+          "f1-score": 1.0,
           "support": 9.0
         },
-        "accuracy": 0.9206349206349206,
+        "accuracy": 1.0,
         "macro avg": {
-          "precision": 0.9206228956228957,
-          "recall": 0.9237373737373736,
-          "f1-score": 0.919426365650622,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 63.0
         },
         "weighted avg": {
-          "precision": 0.9232243065576399,
-          "recall": 0.9206349206349206,
-          "f1-score": 0.91907949181568,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 63.0
         }
       }
     },
-    "errors_sample": [
-      {
-        "text": "Experimente Salvador, um caleidoscópio de culturas onde história colonial, tradições afro-brasileiras e belezas naturais se encontram. Dance ao som do berimbau, explore pelourinhos históricos, deguste acarajés e mergulhe em praias paradisíacas. Uma cidade que é um verdadeiro patrimônio vivo da cultura brasileira.",
-        "true_label": "Turismo",
-        "predicted_label": "Variedades e Sociedade"
-      },
-      {
-        "text": "As políticas de proteção de direitos humanos configuram-se como elemento fundamental de cidadania. Buscam garantir dignidade, igualdade e respeito universal. Promovem proteção contra discriminações e violências estruturais. Representam conquista civilizatória contemporânea. Constituem elemento essencial de justiça social.",
-        "true_label": "Política",
-        "predicted_label": "Polícia e Direitos"
-      },
-      {
-        "text": "Explore o Brasil através das pegadas literárias de seus escritores mais importantes. Viaje por cidades, paisagens e locais que inspiraram obras icônicas, mergulhando na rica tradição literária brasileira e descobrindo as conexões entre literatura, história e território.",
-        "true_label": "Turismo",
-        "predicted_label": "Economia"
-      },
-      {
-        "text": "Programas de mediação e justiça restaurativa buscam resolver conflitos de forma não-adversarial, promovendo diálogo, responsabilização, reparação de danos e reconstrução de relações sociais, com foco na restauração do tecido social e prevenção de futuros conflitos.",
-        "true_label": "Polícia e Direitos",
-        "predicted_label": "Política"
-      },
-      {
-        "text": "As estratégias de desenvolvimento científico objetivam fortalecer ecossistemas de inovação nacional. Buscam fomentar pesquisa, desenvolvimento e transferência tecnológica. Promovem investimentos em educação, infraestrutura e recursos humanos qualificados. Representam elemento fundamental de transformação socioeconômica. Constituem via estratégica de desenvolvimento nacional.",
-        "true_label": "Política",
-        "predicted_label": "Esportes"
-      }
-    ],
+    "errors_sample": [],
     "artifacts": {
-      "model_path": "runs\\models\\45a49bec.pkl",
-      "confusion_matrix_key": "45a49bec_cm"
+      "model_path": "runs\\models\\350ceda4.pkl",
+      "confusion_matrix_key": "350ceda4_cm"
     }
   },
   {
-    "experiment_id": "6f391436",
-    "timestamp": "2026-06-30T17:32:09.561446+00:00",
+    "experiment_id": "55f6e3ee",
+    "timestamp": "2026-07-01T02:42:18.211824+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "noticias",
@@ -2196,7 +2154,7 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "algorithm": "logistic_regression",
@@ -2204,95 +2162,69 @@
       "solver": "lbfgs"
     },
     "metrics": {
-      "accuracy": 0.9206349206349206,
-      "f1_weighted": 0.91907949181568,
+      "accuracy": 1.0,
+      "f1_weighted": 1.0,
       "classification_report": {
         "Economia": {
-          "precision": 0.9090909090909091,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1-score": 0.9523809523809523,
+          "f1-score": 1.0,
           "support": 10.0
         },
         "Esportes": {
-          "precision": 0.9166666666666666,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1-score": 0.9565217391304348,
+          "f1-score": 1.0,
           "support": 11.0
         },
         "Polícia e Direitos": {
-          "precision": 0.9090909090909091,
-          "recall": 0.9090909090909091,
-          "f1-score": 0.9090909090909091,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 11.0
         },
         "Política": {
-          "precision": 0.8888888888888888,
-          "recall": 0.8,
-          "f1-score": 0.8421052631578947,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 10.0
         },
         "Turismo": {
           "precision": 1.0,
-          "recall": 0.8333333333333334,
-          "f1-score": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 12.0
         },
         "Variedades e Sociedade": {
-          "precision": 0.9,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1-score": 0.9473684210526315,
+          "f1-score": 1.0,
           "support": 9.0
         },
-        "accuracy": 0.9206349206349206,
+        "accuracy": 1.0,
         "macro avg": {
-          "precision": 0.9206228956228957,
-          "recall": 0.9237373737373736,
-          "f1-score": 0.919426365650622,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 63.0
         },
         "weighted avg": {
-          "precision": 0.9232243065576399,
-          "recall": 0.9206349206349206,
-          "f1-score": 0.91907949181568,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 63.0
         }
       }
     },
-    "errors_sample": [
-      {
-        "text": "Experimente Salvador, um caleidoscópio de culturas onde história colonial, tradições afro-brasileiras e belezas naturais se encontram. Dance ao som do berimbau, explore pelourinhos históricos, deguste acarajés e mergulhe em praias paradisíacas. Uma cidade que é um verdadeiro patrimônio vivo da cultura brasileira.",
-        "true_label": "Turismo",
-        "predicted_label": "Variedades e Sociedade"
-      },
-      {
-        "text": "As políticas de proteção de direitos humanos configuram-se como elemento fundamental de cidadania. Buscam garantir dignidade, igualdade e respeito universal. Promovem proteção contra discriminações e violências estruturais. Representam conquista civilizatória contemporânea. Constituem elemento essencial de justiça social.",
-        "true_label": "Política",
-        "predicted_label": "Polícia e Direitos"
-      },
-      {
-        "text": "Explore o Brasil através das pegadas literárias de seus escritores mais importantes. Viaje por cidades, paisagens e locais que inspiraram obras icônicas, mergulhando na rica tradição literária brasileira e descobrindo as conexões entre literatura, história e território.",
-        "true_label": "Turismo",
-        "predicted_label": "Economia"
-      },
-      {
-        "text": "Programas de mediação e justiça restaurativa buscam resolver conflitos de forma não-adversarial, promovendo diálogo, responsabilização, reparação de danos e reconstrução de relações sociais, com foco na restauração do tecido social e prevenção de futuros conflitos.",
-        "true_label": "Polícia e Direitos",
-        "predicted_label": "Política"
-      },
-      {
-        "text": "As estratégias de desenvolvimento científico objetivam fortalecer ecossistemas de inovação nacional. Buscam fomentar pesquisa, desenvolvimento e transferência tecnológica. Promovem investimentos em educação, infraestrutura e recursos humanos qualificados. Representam elemento fundamental de transformação socioeconômica. Constituem via estratégica de desenvolvimento nacional.",
-        "true_label": "Política",
-        "predicted_label": "Esportes"
-      }
-    ],
+    "errors_sample": [],
     "artifacts": {
-      "model_path": "runs\\models\\6f391436.pkl",
-      "confusion_matrix_key": "6f391436_cm"
+      "model_path": "runs\\models\\55f6e3ee.pkl",
+      "confusion_matrix_key": "55f6e3ee_cm"
     }
   },
   {
-    "experiment_id": "25d0248c",
-    "timestamp": "2026-06-30T17:32:15.886513+00:00",
+    "experiment_id": "d5c6f995",
+    "timestamp": "2026-07-01T02:42:26.865511+00:00",
     "framework_version": "1.0.0",
     "task": "classification",
     "dataset": "noticias",
@@ -2315,132 +2247,87 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "algorithm": "random_forest",
       "n_estimators": 100
     },
     "metrics": {
-      "accuracy": 0.8253968253968254,
-      "f1_weighted": 0.8225858357581528,
+      "accuracy": 0.9682539682539683,
+      "f1_weighted": 0.9681208542405012,
       "classification_report": {
         "Economia": {
-          "precision": 0.9090909090909091,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1-score": 0.9523809523809523,
+          "f1-score": 1.0,
           "support": 10.0
         },
         "Esportes": {
-          "precision": 0.75,
-          "recall": 0.8181818181818182,
-          "f1-score": 0.782608695652174,
+          "precision": 1.0,
+          "recall": 0.9090909090909091,
+          "f1-score": 0.9523809523809523,
           "support": 11.0
         },
         "Polícia e Direitos": {
-          "precision": 0.8333333333333334,
-          "recall": 0.9090909090909091,
-          "f1-score": 0.8695652173913043,
+          "precision": 0.9166666666666666,
+          "recall": 1.0,
+          "f1-score": 0.9565217391304348,
           "support": 11.0
         },
         "Política": {
-          "precision": 0.8571428571428571,
-          "recall": 0.6,
-          "f1-score": 0.7058823529411765,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1-score": 0.9473684210526315,
           "support": 10.0
         },
         "Turismo": {
-          "precision": 0.9090909090909091,
-          "recall": 0.8333333333333334,
-          "f1-score": 0.8695652173913043,
+          "precision": 0.9230769230769231,
+          "recall": 1.0,
+          "f1-score": 0.96,
           "support": 12.0
         },
         "Variedades e Sociedade": {
-          "precision": 0.7,
-          "recall": 0.7777777777777778,
-          "f1-score": 0.7368421052631579,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
           "support": 9.0
         },
-        "accuracy": 0.8253968253968254,
+        "accuracy": 0.9682539682539683,
         "macro avg": {
-          "precision": 0.8264430014430015,
-          "recall": 0.8230639730639732,
-          "f1-score": 0.8194740901700115,
+          "precision": 0.9732905982905983,
+          "recall": 0.9681818181818181,
+          "f1-score": 0.9693785187606698,
           "support": 63.0
         },
         "weighted avg": {
-          "precision": 0.8299697656840512,
-          "recall": 0.8253968253968254,
-          "f1-score": 0.8225858357581528,
+          "precision": 0.9707977207977208,
+          "recall": 0.9682539682539683,
+          "f1-score": 0.9681208542405012,
           "support": 63.0
         }
       }
     },
     "errors_sample": [
       {
-        "text": "As políticas de promoção da diversidade cultural buscam valorizar expressões culturais plurais. Promovem reconhecimento de diferentes matrizes culturais. Representam estratégias de preservação e celebração das diferenças. Objetivam garantir direitos culturais e expressões identitárias. Constituem elemento fundamental de justiça cultural.",
-        "true_label": "Política",
-        "predicted_label": "Variedades e Sociedade"
-      },
-      {
-        "text": "Analise as profundas metamorfoses nas estruturas familiares brasileiras, que transcendem modelos tradicionais. Descubra novos arranjos familiares, dinâmicas de afeto, diversidade de composições e ressignificações do conceito de família no século XXI.",
-        "true_label": "Variedades e Sociedade",
-        "predicted_label": "Esportes"
-      },
-      {
-        "text": "Experimente Salvador, um caleidoscópio de culturas onde história colonial, tradições afro-brasileiras e belezas naturais se encontram. Dance ao som do berimbau, explore pelourinhos históricos, deguste acarajés e mergulhe em praias paradisíacas. Uma cidade que é um verdadeiro patrimônio vivo da cultura brasileira.",
-        "true_label": "Turismo",
-        "predicted_label": "Variedades e Sociedade"
-      },
-      {
         "text": "As políticas de proteção de direitos humanos configuram-se como elemento fundamental de cidadania. Buscam garantir dignidade, igualdade e respeito universal. Promovem proteção contra discriminações e violências estruturais. Representam conquista civilizatória contemporânea. Constituem elemento essencial de justiça social.",
         "true_label": "Política",
         "predicted_label": "Polícia e Direitos"
       },
       {
-        "text": "A democratização esportiva representa um processo fundamental de inclusão social e cidadania. Políticas públicas, programas comunitários e iniciativas privadas têm expandido o acesso a práticas esportivas, superando barreiras socioeconômicas e promovendo oportunidades de desenvolvimento pessoal e coletivo em diferentes comunidades brasileiras.",
+        "text": "O turismo esportivo brasileiro emerge como importante segmento econômico e cultural, atraindo atletas e entusiastas de diversas partes do mundo. Eventos internacionais como maratonas, competições de mountain bike e circuitos de surfe transformam destinos nacionais em pontos de encontro global, promovendo intercâmbio cultural e desenvolvimento econômico regional.",
         "true_label": "Esportes",
-        "predicted_label": "Polícia e Direitos"
-      },
-      {
-        "text": "A cultura do ciclismo brasileiro ultrapassa os limites do esporte competitivo, tornando-se um movimento de mobilidade urbana e estilo de vida saudável. Competições de mountain bike ganham força, revelando atletas de alto rendimento e incentivando a prática esportiva em diferentes terrenos e modalidades.",
-        "true_label": "Esportes",
-        "predicted_label": "Variedades e Sociedade"
-      },
-      {
-        "text": "Explore o Brasil através das pegadas literárias de seus escritores mais importantes. Viaje por cidades, paisagens e locais que inspiraram obras icônicas, mergulhando na rica tradição literária brasileira e descobrindo as conexões entre literatura, história e território.",
-        "true_label": "Turismo",
-        "predicted_label": "Economia"
-      },
-      {
-        "text": "A diplomacia científica emerge como estratégia contemporânea de cooperação internacional. Articula redes globais de produção de conhecimento além de fronteiras geopolíticas tradicionais. Promove intercâmbios acadêmicos e tecnológicos entre diferentes países. Representa instrumento de soft power baseado em colaboração intelectual. Contribui para avanços científicos globais e compreensão mútua entre nações.",
-        "true_label": "Política",
-        "predicted_label": "Esportes"
-      },
-      {
-        "text": "Programas de mediação e justiça restaurativa buscam resolver conflitos de forma não-adversarial, promovendo diálogo, responsabilização, reparação de danos e reconstrução de relações sociais, com foco na restauração do tecido social e prevenção de futuros conflitos.",
-        "true_label": "Polícia e Direitos",
-        "predicted_label": "Política"
-      },
-      {
-        "text": "Descubra a riqueza da diversidade brasileira através de manifestações artísticas contemporâneas que celebram a complexidade étnica, cultural e histórica do país. Uma polifonia de expressões que revelam identidades múltiplas.",
-        "true_label": "Variedades e Sociedade",
         "predicted_label": "Turismo"
-      },
-      {
-        "text": "As estratégias de desenvolvimento científico objetivam fortalecer ecossistemas de inovação nacional. Buscam fomentar pesquisa, desenvolvimento e transferência tecnológica. Promovem investimentos em educação, infraestrutura e recursos humanos qualificados. Representam elemento fundamental de transformação socioeconômica. Constituem via estratégica de desenvolvimento nacional.",
-        "true_label": "Política",
-        "predicted_label": "Esportes"
       }
     ],
     "artifacts": {
-      "model_path": "runs\\models\\25d0248c.pkl",
-      "confusion_matrix_key": "25d0248c_cm"
+      "model_path": "runs\\models\\d5c6f995.pkl",
+      "confusion_matrix_key": "d5c6f995_cm"
     }
   },
   {
-    "experiment_id": "b9000202",
-    "timestamp": "2026-06-30T17:32:22.269952+00:00",
+    "experiment_id": "b2137491",
+    "timestamp": "2026-07-01T02:42:35.800153+00:00",
     "framework_version": "1.0.0",
     "task": "clustering",
     "dataset": "noticias",
@@ -2451,45 +2338,45 @@
     },
     "embedding": {
       "name": "sentence_transformer",
-      "model_name": "paraphrase-MiniLM-L6-v2"
+      "model_name": "paraphrase-multilingual-MiniLM-L12-v2"
     },
     "algorithm": {
       "name": "kmeans",
       "n_clusters": 6
     },
     "metrics": {
-      "silhouette_score": 0.04788962006568909
+      "silhouette_score": 0.10497508943080902
     },
     "cluster_preview": {
       "cluster_0": [
-        "setores economia criativa brasileira ganham relevância internacional destaque design música jogos di",
-        "economia cultura consolida importante vetor desenvolvimento econômico festivais eventos produções ar",
-        "ciclismo brasileiro transcende prática esportiva configurandose movimento cultural complexo integra "
+        "cooperativas economia solidária semiárido nordestino configuram modelo resistência econômica desenvo",
+        "direitos povos indígenas quilombolas enfrentam desafios complexos relacionados demarcação territoria",
+        "políticas proteção comunidades tradicionais devem garantir autonomia cultural demarcação territorial"
       ],
       "cluster_1": [
-        "pequenas médias empresas pmes representam espinha dorsal tecido econômico brasileiro gerando 50 empr",
-        "economia circular construção civil representa revolução modelos tradicionais produção gestão resíduo",
-        "turismo brasileiro reinventa através experiências criativas inovadoras valorizando cultura local sus"
+        "participação brasileira modalidades olímpicas emergentes representa estratégia diversificação renova",
+        "ciclismo brasileiro transcende prática esportiva configurandose movimento cultural complexo integra ",
+        "desenvolvimento esporte feminino brasil representa jornada superação empoderamento atletas brasileir"
       ],
       "cluster_2": [
-        "surfe brasileiro conquistou reconhecimento internacional revelando atletas técnica extraordinária co",
-        "tecnologias avançadas treinamento revolucionam preparação atlética oferecendo ferramentas precisas m",
-        "explore diversos circuitos turismo religioso brasil mergulhando jornada espiritual atravessa diferen"
+        "turismo brasileiro reinventa através experiências criativas inovadoras valorizando cultura local sus",
+        "explore diversos circuitos turismo religioso brasil mergulhando jornada espiritual atravessa diferen",
+        "embarque viagem culinária brasil celebra diversidade criatividade gastronomia vegetariana vegana exp"
       ],
       "cluster_3": [
-        "políticas fiscais brasileiras recentes adotam estratégias complexas equilibrar crescimento econômico",
-        "políticas públicas incentivo esporte estratégicas desenvolvimento nacional criando mecanismos foment",
-        "democratização esportiva representa processo fundamental inclusão social cidadania políticas pública"
-      ],
-      "cluster_4": [
         "brasil emerge polo inovação mercado criptomoedas blockchain atraindo investidores empreendedores tec",
         "plataformas economia colaborativa redesenhando modelos tradicionais consumo prestação serviços brasi",
         "setor audiovisual brasileiro apresenta crescimento significativo séries filmes conquistando mercados"
       ],
-      "cluster_5": [
+      "cluster_4": [
+        "tecnologias recuperação prevenção lesões representam avanços fundamentais cuidado atlético contempor",
         "combate discriminação racial sistema justiça criminal requer abordagem multifacetada envolvendo trei",
-        "direitos povos indígenas quilombolas enfrentam desafios complexos relacionados demarcação territoria",
         "políticas ressocialização presidiários devem contemplar educação profissionalizante assistência psic"
+      ],
+      "cluster_5": [
+        "artesanato cultura regional configuram importantes vetores economia criativa brasileira comunidades ",
+        "economia cultura consolida importante vetor desenvolvimento econômico festivais eventos produções ar",
+        "descubra brasil através vibrantes festivais cultura música onde cada evento jornada imersiva tradiçõ"
       ]
     }
   }

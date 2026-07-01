@@ -33,7 +33,7 @@ class PreprocessingConfig:
     remove_stopwords: bool = True
     lemmatize: bool = False
     min_token_length: int = 2
-    language: str = "portuguese"
+    language: str = "english"
     name: str = "default"
 
     @classmethod

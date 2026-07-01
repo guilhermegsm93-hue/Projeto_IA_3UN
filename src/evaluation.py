@@ -91,6 +91,10 @@ def run_classification_experiment(
     """Executa um experimento de classificação e retorna registro estruturado."""
     _ensure_dirs()
     preprocessing = preprocessing or PreprocessingConfig()
+
+    # Define o idioma dinamicamente com base no nome do dataset
+    preprocessing.language = "portuguese" if dataset_name == "noticias" else "english"
+
     experiment_id = str(uuid.uuid4())[:8]
     timestamp = datetime.now(timezone.utc).isoformat()
 
@@ -200,6 +204,10 @@ def run_clustering_experiment(
     """Executa experimento de clustering (K-Means) com silhouette score."""
     _ensure_dirs()
     preprocessing = preprocessing or PreprocessingConfig()
+
+    # Define o idioma dinamicamente com base no nome do dataset
+    preprocessing.language = "portuguese" if dataset_name == "noticias" else "english"
+    
     experiment_id = str(uuid.uuid4())[:8]
     timestamp = datetime.now(timezone.utc).isoformat()
 
